@@ -1,0 +1,2157 @@
+/* PC */
+@media screen and (min-width: 1440px) {
+    body {
+        padding: 0 100px;
+    }
+    /* navbar */
+    #menuMB li,
+    #menuMA li {
+        color: #232323;
+        line-height: 27.2px;
+        margin: 0 8px 0 0;
+        padding: 0 35px;
+        text-align: center;
+    }
+
+    #menuMB ul,
+    #menuMA ul {
+        color: #232323;
+        line-height: 27.2px;
+        text-align: center;
+    }
+
+    #menuMB,
+    #menuMA {
+        color: #232323;
+        align-items: center;
+        justify-content: center;
+        line-height: 27.2px;
+        text-align: center;
+    }
+
+    #menuMB a,
+    #menuMA a {
+        color: #555555;
+        display: inline-block;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    #logo img {
+        width: 75%;
+    }
+
+    #logo {
+        margin: 0;
+        padding-left: 35px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    /* navbar */
+
+    /* slide */
+    .carousel.slide {
+        border-bottom: solid black 2px;
+    }
+
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .imgSlide img {
+        background-position: 50% 50%;
+        background-size: cover;
+        height: 490px;
+    }
+
+    .Slide {
+        background-color: #fff1d0;
+        color: #232323;
+        line-height: 27.2px;
+        padding: 20px 0 15px;
+        text-align: left;
+        height: 130px;
+    }
+
+    .wow.fadeInUp {
+        color: #555555;
+        font-size: 17px;
+        line-height: 28.9px;
+        margin: 0 0 8px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .wow.fadeIn {
+        color: #232323;
+        font-size: 14px;
+        line-height: 21px;
+        margin: 0px 116.25px;
+        text-align: center;
+    }
+
+    .more.wow.fadeIn {
+        color: #3c5e2c;
+        font-size: 14px;
+        line-height: 21px;
+        margin: 0px 116.25px;
+        text-align: right;
+        font-style: italic;
+    }
+
+    .more.wow.fadeIn .cl1 {
+        color: #3c5e2c;
+        display: inline;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: right;
+    }
+
+    /* slide */
+
+    /* CÁC SẢN PHẨM MỚI THÁNG NÀY */
+    .titleNewProduct {
+        padding: 20px;
+        text-align: center;
+        background-color: lightblue;
+    }
+
+    .newProduct {
+        border-top: #3c5e2c solid 2px;
+        text-align: center;
+        background-color: darkkhaki;
+    }
+
+    .row-item {
+        display: flex;
+    }
+
+    .item {
+        text-align: center;
+        margin: 0;
+    }
+
+    .card img {
+        border-radius: 5% 5% 0 0;
+        width: 80%;
+        height: 200px;
+        margin-left: 30px;
+    }
+
+    .card-img-top {
+        height: 200px;
+        width: 100%;
+    }
+
+    .card_item {
+        margin: 20px 0px;
+        border: #232323 solid 1px;
+        border-radius: 5%;
+        background-color: #fff1d0;
+    }
+
+    /* CÁC SẢN PHẨM MỚI THÁNG NÀY */
+
+    /* KHÔNG GIAN QUÁN */
+    .envir-text {
+        width: 1100px;
+        position: absolute;
+        background-color: #fff1d0;
+        justify-items: center;
+        margin-top: 150px;
+        margin-left: 50px;
+        padding: 10px 30px;
+        opacity: 0.8;
+    }
+
+    .bg1 img {
+        width: 50%;
+        height: 500px;
+        float: left;
+    }
+
+    .bg2 img {
+        width: 50%;
+        height: 500px;
+        float: right;
+    }
+
+    /* KHÔNG GIAN QUÁN */
+
+    /* Tin Tức */
+    #content {
+        background-image: url(../Pictures/Main_Pic/Pha-Che.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #khung {
+        padding: 50px 0;
+    }
+
+    .tinnhanh {
+        display: flex;
+        height: 30%;
+    }
+
+    .anhnho img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #Tintuc .links,
+    #Kienthuc .links {
+        text-align: left;
+    }
+
+    #Kienthuc,
+    #Tintuc {
+        border: solid 2px #3c5e2c;
+        padding-left: 20px;
+        width: 45%;
+        background-color: beige;
+    }
+
+    #Kienthuc {
+        margin-left: 70px;
+    }
+
+    #Kienthuc h3,
+    #Tintuc h3 {
+        padding: 20px 0;
+    }
+
+    div .noidung {
+        margin-left: 20px;
+        line-height: 20px;
+    }
+
+    .noidung p {
+        font-style: italic;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    .cool-link {
+        text-decoration: none;
+        color: brown;
+    }
+
+    .cool-link::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        transition: .3s;
+        background-color: brown;
+    }
+
+    .cool-link:hover::after {
+        width: 100%;
+        transition: .3s;
+    }
+
+    .links {
+        padding-left: 0;
+    }
+
+    /* Tin Tức */
+
+    /* Footer */
+    .listSocial {
+        border-top: 2px solid;
+        line-height: 27.2px;
+        padding: 20px;
+        text-align: left;
+        opacity: 0.8;
+        background-color: #fff1d0;
+    }
+
+    .listSocial-c {
+        align-items: center;
+        display: flex;
+        line-height: 0;
+        text-align: left;
+    }
+
+    .listSocial-c a {
+        margin-left: 10px;
+    }
+
+    #contact-us p {
+        font-size: 14px;
+        line-height: 23.8px;
+        margin: -9px 0 10px;
+        text-align: left;
+    }
+
+    .input-group-btn button {
+        align-items: flex-start;
+        background-color: #3c5e2c;
+        color: #ffffff;
+        display: inline-block;
+        line-height: 35px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .showMessageMe span {
+        display: inline;
+        font-size: 16px;
+        line-height: 22.1px;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    #copyright {
+        width: 40%;
+        color: #232323;
+    }
+
+    #contact-us {
+        width: 40%;
+        color: #232323;
+    }
+
+    #social {
+        width: 20%;
+        color: #232323;
+        text-align: left;
+    }
+
+    /* Footer */
+}
+
+/* PC */
+
+/* laptop L */
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    body {
+        padding: 0 50px;
+    }
+
+    /* navbar */
+    #menuMB li,
+    #menuMA li {
+        color: #232323;
+        line-height: 27.2px;
+        margin: 0 0 8px 0;
+        padding: 0 30px;
+        text-align: center;
+    }
+
+    #menuMB ul,
+    #menuMA ul {
+        color: #232323;
+        line-height: 27.2px;
+        text-align: center;
+    }
+
+    #menuMB,
+    #menuMA {
+        color: #232323;
+        align-items: center;
+        justify-content: center;
+        line-height: 27.2px;
+        text-align: center;
+    }
+
+    #menuMB a,
+    #menuMA a {
+        color: #555555;
+        display: inline-block;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    #logo img {
+        width: 75%;
+    }
+
+    #logo {
+        margin: 0;
+        padding-left: 35px;
+    }
+
+    /* navbar */
+
+    /* slide */
+    .carousel.slide {
+        border-bottom: solid black 2px;
+    }
+
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .imgSlide img {
+        background-position: 50% 50%;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .Slide {
+        height: 150px;
+        background-color: #fff1d0;
+        color: #232323;
+        line-height: 20px;
+        padding: 15px 0;
+        text-align: left;
+        border-top: solid 1px;
+        border-bottom: solid 2px #3c5e2c;
+    }
+
+    .wow.fadeInUp {
+        color: #555555;
+        font-size: 17px;
+        line-height: 28.9px;
+        margin: 0 0 8px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .wow.fadeIn {
+        color: #232323;
+        font-size: 14px;
+        line-height: 21px;
+        margin: 0px 116.25px;
+        text-align: center;
+    }
+
+    .more.wow.fadeIn {
+        color: #3c5e2c;
+        font-size: 14px;
+        line-height: 21px;
+        margin: 0px 116.25px;
+        text-align: right;
+        font-style: italic;
+    }
+
+    .more.wow.fadeIn .cl1 {
+        color: #3c5e2c;
+        display: inline;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: right;
+    }
+
+    /* slide */
+
+    /* CÁC SẢN PHẨM MỚI THÁNG NÀY */
+    .newProduct {
+        background-color: #bdb76b;
+    }
+
+    .titleNewProduct {
+        padding: 0 0 30px 0;
+        text-align: center;
+        background-color: lightblue;
+    }
+
+    .card-img-top {
+        height: 100px;
+    }
+
+    .item {
+        text-align: center;
+        width: 25%;
+    }
+
+    .card_item {
+        margin: 20px 30px;
+        border: #232323 solid 1px;
+        border-radius: 5%;
+        background-color: #fff1d0;
+    }
+
+    /* CÁC SẢN PHẨM MỚI THÁNG NÀY */
+
+    /* KHÔNG GIAN QUÁN */
+    .envir-text {
+        width: 850px;
+        position: absolute;
+        background-color: #fff1d0;
+        margin-top: 150px;
+        margin-left: 50px;
+        padding: 10px;
+        opacity: 0.8;
+    }
+
+    .bg1 img {
+        width: 50%;
+        height: 500px;
+        float: left;
+    }
+
+    .bg2 img {
+        width: 50%;
+        height: 500px;
+        float: right;
+    }
+
+    /* KHÔNG GIAN QUÁN */
+
+    /* Tin Tức */
+    #khung {
+        padding: 50px 0;
+    }
+
+    #Kienthuc,
+    #Tintuc {
+        border: solid 2px #3c5e2c;
+        width: 45%;
+        background-color: beige;
+    }
+
+    #khung {
+        justify-content: center;
+    }
+
+    .anhnho img {
+        width: 100%;
+    }
+
+    #Kienthuc h3,
+    #Tintuc h3 {
+        padding: 20px 0;
+    }
+
+    div .noidung {
+        margin-left: 20px;
+        line-height: 20px;
+    }
+
+    .noidung p {
+        font-style: italic;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    .cool-link {
+        text-decoration: none;
+        color: brown;
+    }
+
+    .cool-link::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        transition: .3s;
+        background-color: brown;
+    }
+
+    .cool-link:hover::after {
+        width: 100%;
+        transition: .3s;
+    }
+
+    .links {
+        padding-left: 0;
+    }
+
+    /* Tin Tức */
+
+    /* Footer */
+    .listSocial {
+        border-top: 2px solid;
+        line-height: 27.2px;
+        padding: 20px;
+        text-align: left;
+        opacity: 0.8;
+        background-color: #fff1d0;
+    }
+
+    .listSocial-c {
+        align-items: center;
+        display: flex;
+        line-height: 0;
+        text-align: left;
+    }
+
+    .listSocial-c a {
+        margin-left: 10px;
+    }
+
+    #contact-us p {
+        font-size: 14px;
+        line-height: 23.8px;
+        margin: -9px 0 10px;
+        text-align: left;
+    }
+
+    .input-group-btn button {
+        align-items: flex-start;
+        background-color: #3c5e2c;
+        color: #ffffff;
+        display: inline-block;
+        line-height: 35px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .showMessageMe span {
+        display: inline;
+        font-size: 16px;
+        line-height: 22.1px;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    #copyright {
+        width: 40%;
+        color: #232323;
+    }
+
+    #contact-us {
+        width: 40%;
+        color: #232323;
+    }
+
+    #social {
+        width: 20%;
+        color: #232323;
+        text-align: left;
+    }
+
+    /* Footer */
+}
+
+/* laptop L */
+
+/* chỗ này tui muốn call để giải thích với mn */
+@media screen and (min-width: 992px) and (max-width: 1023px) {
+    body {
+        padding: 0 50px;
+    }
+
+    /* navbar */
+    #menuMB li,
+    #menuMA li {
+        color: #232323;
+        line-height: 27.2px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    #menuMB ul,
+    #menuMA ul {
+        color: #232323;
+        line-height: 27.2px;
+        text-align: center;
+    }
+
+    #menuMB,
+    #menuMA {
+        color: #232323;
+        align-items: center;
+        justify-content: center;
+        line-height: 27.2px;
+        text-align: center;
+    }
+
+    #menuMB a,
+    #menuMA a {
+        color: #555555;
+        display: inline-block;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    #logo img {
+        width: 75%;
+    }
+
+    #logo {
+        margin: 0;
+        padding-left: 35px;
+    }
+
+    /* navbar */
+
+    /* slide */
+    .carousel.slide {
+        border-bottom: solid black 2px;
+    }
+
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .imgSlide img {
+        background-position: 50% 50%;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .Slide {
+        height: 150px;
+        background-color: #fff1d0;
+        color: #232323;
+        line-height: 20px;
+        padding: 15px 0;
+        text-align: left;
+        border-top: solid 1px;
+        border-bottom: solid 2px #3c5e2c;
+    }
+
+    .wow.fadeInUp {
+        color: #555555;
+        font-size: 17px;
+        line-height: 28.9px;
+        margin: 0 0 8px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .wow.fadeIn {
+        color: #232323;
+        font-size: 14px;
+        line-height: 21px;
+        margin: 0px 116.25px;
+        text-align: center;
+    }
+
+    .more.wow.fadeIn {
+        color: #3c5e2c;
+        font-size: 14px;
+        line-height: 21px;
+        margin: 0px 116.25px;
+        text-align: right;
+        font-style: italic;
+    }
+
+    .more.wow.fadeIn .cl1 {
+        color: #3c5e2c;
+        display: inline;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: right;
+    }
+
+    /* slide */
+
+    /* CÁC SẢN PHẨM MỚI THÁNG NÀY */
+    .newProduct {
+        background-color: floralwhite;
+    }
+
+    .row-item {
+        justify-content: center;
+    }
+
+    .titleNewProduct {
+        padding: 0 0 30px 0;
+        text-align: center;
+        background-color: lightblue;
+    }
+
+    .card-img-top {
+        height: 200px;
+    }
+
+    .item {
+        text-align: center;
+        width: 350px;
+    }
+
+    .card_item {
+        margin: 20px 30px;
+        border: #232323 solid 1px;
+        border-radius: 5%;
+        background-color: #fff1d0;
+    }
+
+    /* CÁC SẢN PHẨM MỚI THÁNG NÀY */
+
+    /* KHÔNG GIAN QUÁN */
+    .envir-text {
+        width: 800px;
+        position: absolute;
+        background-color: #fff1d0;
+        justify-items: center;
+        margin-top: 150px;
+        margin-left: 50px;
+        padding: 10px 30px;
+        opacity: 0.8;
+    }
+
+    .bg1 img {
+        width: 50%;
+        height: 500px;
+        float: left;
+    }
+
+    .bg2 img {
+        width: 50%;
+        height: 500px;
+        float: right;
+    }
+
+    /* KHÔNG GIAN QUÁN */
+
+    /* Tin Tức */
+    #khung {
+        padding: 50px 0;
+    }
+
+    #Kienthuc,
+    #Tintuc {
+        border: solid 2px #3c5e2c;
+        width: 45%;
+        background-color: beige;
+    }
+
+    #khung {
+        justify-content: center;
+    }
+
+    .anhnho img {
+        width: 100%;
+    }
+
+    #Kienthuc h3,
+    #Tintuc h3 {
+        padding: 20px 0;
+    }
+
+    div .noidung {
+        margin-left: 20px;
+        line-height: 20px;
+    }
+
+    .noidung p {
+        font-style: italic;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    .cool-link {
+        text-decoration: none;
+        color: brown;
+    }
+
+    .cool-link::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        transition: .3s;
+        background-color: brown;
+    }
+
+    .cool-link:hover::after {
+        width: 100%;
+        transition: .3s;
+    }
+
+    .links {
+        padding-left: 0;
+    }
+
+    /* Tin Tức */
+
+    /* chỗ này là chỗ chỉnh sửa body nha */
+
+    /* Footer */
+    #copyright {
+        width: 100%;
+        color: #ffffff;
+        opacity: 0.8;
+        background-color: #3c5e2c;
+        padding: 20px;
+    }
+
+    #contact-us {
+        width: 70%;
+        padding-top: 20px;
+        color: #ffffff;
+        background-color: #232323;
+        padding: 20px;
+    }
+
+    #social {
+        width: 30%;
+        padding-top: 20px;
+        color: #ffffff;
+        background-color: #232323;
+        padding: 20px;
+    }
+
+    .input-group-btn button {
+        align-items: flex-start;
+        background-color: #3c5e2c;
+        color: #ffffff;
+        display: inline-block;
+        line-height: 35px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #social {
+        text-align: right;
+    }
+
+    /* footer */
+}
+
+/* chỗ này tui muốn call để giải thích với mn */
+
+/* laptop */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        padding: 0 30px;
+    }
+
+    /* navbar */
+    #menuMB li,
+    #menuMA li {
+        color: #232323;
+        line-height: 27.2px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #menuMB ul,
+    #menuMA ul {
+        color: #232323;
+        line-height: 27.2px;
+        text-align: center;
+    }
+
+    #menuMB,
+    #menuMA {
+        color: #232323;
+        align-items: center;
+        justify-content: center;
+        line-height: 27.2px;
+        text-align: center;
+    }
+
+    #menuMB a,
+    #menuMA a {
+        color: #555555;
+        display: inline-block;
+        font-size: 20px;
+        line-height: 34px;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    /* navbar */
+
+    /* chỗ này là chỗ chỉnh sửa body nha */
+    /* slide */
+    .carousel.slide {
+        border-bottom: solid black 2px;
+    }
+
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .imgSlide img {
+        background-position: 50% 50%;
+        background-size: cover;
+        height: 300px;
+    }
+
+    .Slide {
+        height: 180px;
+        background-color: #fff1d0;
+        color: #232323;
+        line-height: 20px;
+        padding: 15px 0;
+        text-align: left;
+        border-top: solid 1px;
+        border-bottom: solid 2px #3c5e2c;
+    }
+
+    .wow.fadeInUp {
+        color: #555555;
+        font-size: 17px;
+        line-height: 28.9px;
+        margin: 0 0 8px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .wow.fadeIn {
+        color: #232323;
+        font-size: 14px;
+        line-height: 21px;
+        margin: 0px 116.25px;
+        text-align: center;
+    }
+
+    .more.wow.fadeIn {
+        color: #3c5e2c;
+        font-size: 14px;
+        line-height: 21px;
+        margin: 0px 116.25px;
+        text-align: right;
+        font-style: italic;
+    }
+
+    .more.wow.fadeIn .cl1 {
+        color: #3c5e2c;
+        display: inline;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: right;
+    }
+
+    /* slide */
+
+    /* CÁC SẢN PHẨM MỚI THÁNG NÀY */
+    .newProduct {
+        background-color: floralwhite;
+    }
+
+    .row-item {
+        justify-content: center;
+    }
+
+    .titleNewProduct {
+        padding: 0 0 30px 0;
+        text-align: center;
+        background-color: lightblue;
+    }
+
+    .card-img-top {
+        height: 200px;
+    }
+
+    .item {
+        text-align: center;
+        width: 350px;
+    }
+
+    .card_item {
+        margin: 20px 30px;
+        border: #232323 solid 1px;
+        border-radius: 5%;
+        background-color: #fff1d0;
+    }
+
+    /* CÁC SẢN PHẨM MỚI THÁNG NÀY */
+
+    /* KHÔNG GIAN QUÁN */
+    .envir {
+        border-top: solid 2px;
+        border-bottom: solid 2px;
+    }
+
+    .bg1 img,
+    .bg2 img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .envir-text {
+        width: 650px;
+        position: absolute;
+        background-color: #fff1d0;
+        margin-top: 250px;
+        margin-left: 20px;
+        padding: 10px 30px;
+        opacity: 0.8;
+    }
+
+    /* KHÔNG GIAN QUÁN */
+
+    /* Tin Tức */
+    #khung {
+        padding: 50px 0;
+    }
+
+    #Kienthuc,
+    #Tintuc {
+        border: solid 2px #3c5e2c;
+        width: 45%;
+        background-color: beige;
+    }
+
+    #khung {
+        justify-content: center;
+    }
+
+    .anhnho img {
+        width: 100%;
+    }
+
+    #Kienthuc h3,
+    #Tintuc h3 {
+        padding: 20px 0;
+    }
+
+    div .noidung {
+        margin-left: 20px;
+        line-height: 20px;
+    }
+
+    .noidung p {
+        font-style: italic;
+        text-align: left;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    .cool-link {
+        text-decoration: none;
+        color: brown;
+    }
+
+    .cool-link::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        transition: .3s;
+        background-color: brown;
+    }
+
+    .cool-link:hover::after {
+        width: 100%;
+        transition: .3s;
+    }
+
+    .links {
+        padding-left: 0;
+    }
+
+    /* Tin Tức */
+
+    /* chỗ này là chỗ chỉnh sửa body nha */
+
+    /* Footer */
+    #copyright {
+        width: 100%;
+        color: #ffffff;
+        opacity: 0.8;
+        background-color: #3c5e2c;
+        padding: 20px;
+    }
+
+    #contact-us {
+        width: 70%;
+        padding-top: 20px;
+        color: #ffffff;
+        background-color: #232323;
+        padding: 20px;
+    }
+
+    #social {
+        width: 30%;
+        padding-top: 20px;
+        color: #ffffff;
+        background-color: #232323;
+        padding: 20px;
+    }
+
+    .input-group-btn button {
+        align-items: flex-start;
+        background-color: #3c5e2c;
+        color: #ffffff;
+        display: inline-block;
+        line-height: 35px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #social {
+        text-align: right;
+    }
+
+    /* footer */
+}
+
+/* laptop */
+
+/* tablet */
+@media screen and (min-width: 426px) and (max-width: 767px) {
+    body {
+        padding: 0 10px;
+    }
+
+    /* navbar */
+    #menuMB li,
+    #menuMA li {
+        color: #232323;
+        line-height: 27.2px;
+        margin: 0 8px 0 0;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #menuMB ul,
+    #menuMA ul {
+        color: #232323;
+        line-height: 27.2px;
+        text-align: center;
+    }
+
+    #menuMB a,
+    #menuMA a {
+        color: #555555;
+        display: inline-block;
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    /* navbar */
+
+    /* slide */
+    .imgSlide img {
+        background-position: 50% 50%;
+        background-size: cover;
+        height: 200px;
+    }
+    .Slide {
+        height: 200px;
+        background-color: #fff1d0;
+        color: #232323;
+        line-height: 20px;
+        padding: 15px 0;
+        text-align: left;
+        border-top: solid 1px;
+        border-bottom: solid 2px #3c5e2c;
+    }
+    .wow.fadeInUp {
+        color: #555555;
+        font-size: 17px;
+        line-height: 28.9px;
+        margin: 0 0 8px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .wow.fadeIn {
+        color: #232323;
+        font-size: 14px;
+        text-align: center;
+    }
+    .more.wow.fadeIn {
+        font-size: 14px;
+        line-height: 21px;
+        text-align: right;
+        font-style: italic;
+    }
+    .more.wow.fadeIn a {
+        color: #3c5e2c;
+    }
+    /* slide */
+
+    /* CÁC SẢN PHẨM MỚI THÁNG NÀY */
+    .newProduct {
+        background-color: floralwhite;
+    }
+
+    .titleNewProduct {
+        padding: 0 0 30px 0;
+        text-align: center;
+        background-color: lightblue;
+    }
+
+    .card-img-top {
+        height: 200px;
+    }
+
+    .item {
+        text-align: center;
+        width: 350px;
+    }
+
+    .card_item {
+        margin: 20px 30px;
+        border: #232323 solid 1px;
+        border-radius: 5%;
+        background-color: #fff1d0;
+    }
+
+    /* CÁC SẢN PHẨM MỚI THÁNG NÀY */
+
+    /* KHÔNG GIAN QUÁN */
+    .envir {
+        border-top: solid 2px;
+        border-bottom: solid 2px;
+    }
+
+    .bg1 img,
+    .bg2 img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .envir-text {
+        width: 380px;
+        position: absolute;
+        background-color: #fff1d0;
+        margin-top: 250px;
+        margin-left: 20px;
+        padding: 10px 30px;
+        opacity: 0.8;
+    }
+
+    /* KHÔNG GIAN QUÁN */
+
+    /* TIN TỨC */
+    #Kienthuc h3,
+    #Tintuc h3 {
+        padding: 20px 0;
+        text-align: center;
+        font-weight: bold;
+        border-top: solid 1px;
+        color: #3c5e2c;
+        line-height: 22.1px;
+        text-transform: uppercase;
+    }
+
+    #Kienthuc {
+        background-color: darkseagreen;
+        border: solid 1px;
+    }
+
+    #Tintuc {
+        background-color: beige;
+        border: solid 1px;
+    }
+
+    .tinnhanh img {
+        width: 100%;
+        border-radius: 5%;
+    }
+
+    .noidung {
+        margin: 20px;
+    }
+
+    .noidung p {
+        font-style: italic;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    .cool-link {
+        text-decoration: none;
+        color: brown;
+        text-align: center;
+    }
+
+    .cool-link::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        transition: .3s;
+        background-color: brown;
+    }
+
+    .cool-link:hover::after {
+        width: 100%;
+        transition: .3s;
+    }
+
+    .links {
+        padding-left: 0;
+    }
+
+    /* TIN TỨC */
+
+    /* Footer */
+    #copyright {
+        width: 100%;
+        color: #ffffff;
+        opacity: 0.8;
+        background-color: #3c5e2c;
+        padding: 20px;
+    }
+
+    #contact-us {
+        width: 70%;
+        padding-top: 20px;
+        color: #ffffff;
+        background-color: #232323;
+        padding: 20px;
+    }
+
+    #social {
+        width: 30%;
+        padding-top: 20px;
+        color: #ffffff;
+        background-color: #232323;
+        padding: 20px;
+    }
+
+    .input-group-btn button {
+        align-items: flex-start;
+        background-color: #3c5e2c;
+        color: #ffffff;
+        display: inline-block;
+        line-height: 35px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #social {
+        text-align: right;
+    }
+
+    /* footer */
+}
+
+/* tablet */
+
+/* mobile */
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    body {
+        padding: 5px;
+    }
+
+    /* navbar */
+    #menuMB li,
+    #menuMA li {
+        color: #232323;
+        line-height: 27.2px;
+        margin: 0 8px 0 0;
+        padding: 0 0 10px 10px;
+    }
+
+    #menuMB a,
+    #menuMA a {
+        color: #555555;
+        display: inline-block;
+        font-size: 20px;
+        line-height: 22px;
+        /* text-align: center; */
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    #logo img {
+        max-width: 50%;
+        margin-right: 90px;
+    }
+
+    /* navbar */
+
+    /* slide */
+    .imgSlide img {
+        background-position: 50% 50%;
+        background-size: cover;
+        height: 200px;
+    }
+    .Slide {
+        height: 200px;
+        background-color: #fff1d0;
+        color: #232323;
+        line-height: 20px;
+        padding: 15px 0;
+        text-align: left;
+        border-top: solid 1px;
+        border-bottom: solid 2px #3c5e2c;
+    }
+    .wow.fadeInUp {
+        color: #555555;
+        font-size: 17px;
+        line-height: 28.9px;
+        margin: 0 0 8px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .wow.fadeIn {
+        color: #232323;
+        font-size: 14px;
+        text-align: center;
+    }
+    .more.wow.fadeIn {
+        font-size: 14px;
+        line-height: 21px;
+        text-align: right;
+        font-style: italic;
+    }
+    .more.wow.fadeIn a {
+        color: #3c5e2c;
+    }
+    /* slide */
+
+    /* KHÔNG GIAN QUÁN */
+    .envir {
+        border-top: solid 2px;
+        border-bottom: solid 2px;
+    }
+
+    .bg1 img,
+    .bg2 img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .envir-text {
+        width: 350px;
+        position: absolute;
+        background-color: #fff1d0;
+        margin-top: 250px;
+        margin-left: 20px;
+        padding: 10px 30px;
+        opacity: 0.8;
+    }
+
+    /* KHÔNG GIAN QUÁN */
+
+    /* TIN TỨC */
+    #Kienthuc h3,
+    #Tintuc h3 {
+        padding: 20px 0;
+        text-align: center;
+        font-weight: bold;
+        border-top: solid 1px;
+        color: #3c5e2c;
+        line-height: 22.1px;
+        text-transform: uppercase;
+    }
+
+    #Kienthuc {
+        background-color: darkseagreen;
+        border: solid 1px;
+    }
+
+    #Tintuc {
+        background-color: beige;
+        border: solid 1px;
+    }
+
+    .tinnhanh img {
+        width: 100%;
+        border-radius: 5%;
+    }
+
+    .noidung {
+        margin: 20px;
+    }
+
+    .noidung p {
+        font-style: italic;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    .cool-link {
+        text-decoration: none;
+        color: brown;
+        text-align: center;
+    }
+
+    .cool-link::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        transition: .3s;
+        background-color: brown;
+    }
+
+    .cool-link:hover::after {
+        width: 100%;
+        transition: .3s;
+    }
+
+    .links {
+        padding-left: 0;
+    }
+
+    /* TIN TỨC */
+
+    /* CÁC SẢN PHẨM MỚI THÁNG NÀY */
+    .titleNewProduct {
+        padding: 20px;
+        text-align: center;
+        background-color: lightblue;
+    }
+
+    .newProduct {
+        border-top: #3c5e2c solid 2px;
+        text-align: center;
+        background-color: darkkhaki;
+    }
+
+    .item {
+        text-align: center;
+    }
+
+    .card_item {
+        margin: 20px 30px;
+        border: #232323 solid 1px;
+        border-radius: 5%;
+        background-color: #fff1d0;
+    }
+
+    /* CÁC SẢN PHẨM MỚI THÁNG NÀY */
+
+    /* footer */
+    .listSocial {
+        border: 2px solid;
+        color: #ffffff;
+        line-height: 27.2px;
+        text-align: left;
+        opacity: 1;
+        text-align: center;
+        background-color: #232323;
+    }
+
+    #copyright,
+    #contact-us,
+    #social {
+        margin: 20px 0;
+    }
+
+    .input-group-btn button {
+        align-items: flex-start;
+        background-color: #3c5e2c;
+        color: #ffffff;
+        display: inline-block;
+        line-height: 35px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    /* footer */
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    body {
+        padding: 5px;
+    }
+
+    /* navbar */
+    #menuMB li,
+    #menuMA li {
+        color: #232323;
+        line-height: 27.2px;
+        margin: 0 8px 0 0;
+        padding: 0 0 10px 10px;
+    }
+
+    #menuMB a,
+    #menuMA a {
+        color: #555555;
+        display: inline-block;
+        font-size: 20px;
+        line-height: 22px;
+        /* text-align: center; */
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    #logo img {
+        max-width: 50%;
+        margin-right: 60px;
+    }
+
+    /* navbar */
+
+    /* slide */
+    .imgSlide img {
+        background-position: 50% 50%;
+        background-size: cover;
+        height: 200px;
+    }
+    .Slide {
+        height: 225px;
+        background-color: #fff1d0;
+        color: #232323;
+        line-height: 20px;
+        padding: 15px 0;
+        text-align: left;
+        border-top: solid 1px;
+        border-bottom: solid 2px #3c5e2c;
+    }
+    .wow.fadeInUp {
+        color: #555555;
+        font-size: 17px;
+        line-height: 28.9px;
+        margin: 0 0 8px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .wow.fadeIn {
+        color: #232323;
+        font-size: 14px;
+        text-align: center;
+    }
+    .more.wow.fadeIn {
+        font-size: 14px;
+        line-height: 21px;
+        text-align: right;
+        font-style: italic;
+    }
+    .more.wow.fadeIn a {
+        color: #3c5e2c;
+    }
+    /* slide */
+
+    /* KHÔNG GIAN QUÁN */
+    .envir {
+        border-top: solid 2px;
+        border-bottom: solid 2px;
+    }
+
+    .bg1 img,
+    .bg2 img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .envir-text {
+        width: 300px;
+        position: absolute;
+        background-color: #fff1d0;
+        margin-top: 250px;
+        margin-left: 20px;
+        padding: 10px 30px;
+        opacity: 0.8;
+    }
+
+    /* KHÔNG GIAN QUÁN */
+
+    /* TIN TỨC */
+    #Kienthuc h3,
+    #Tintuc h3 {
+        padding: 20px 0;
+        text-align: center;
+        font-weight: bold;
+        border-top: solid 1px;
+        color: #3c5e2c;
+        line-height: 22.1px;
+        text-transform: uppercase;
+    }
+
+    #Kienthuc {
+        background-color: darkseagreen;
+        border: solid 1px;
+    }
+
+    #Tintuc {
+        background-color: beige;
+        border: solid 1px;
+    }
+
+    .tinnhanh img {
+        width: 100%;
+        border-radius: 5%;
+    }
+
+    .noidung {
+        margin: 20px;
+    }
+
+    .noidung p {
+        font-style: italic;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    .cool-link {
+        text-decoration: none;
+        color: brown;
+        text-align: center;
+    }
+
+    .cool-link::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        transition: .3s;
+        background-color: brown;
+    }
+
+    .cool-link:hover::after {
+        width: 100%;
+        transition: .3s;
+    }
+
+    .links {
+        padding-left: 0;
+    }
+
+    /* TIN TỨC */
+
+    /* CÁC SẢN PHẨM MỚI THÁNG NÀY */
+    .titleNewProduct {
+        padding: 20px;
+        text-align: center;
+        background-color: lightblue;
+    }
+
+    .newProduct {
+        border-top: #3c5e2c solid 2px;
+        text-align: center;
+        background-color: darkkhaki;
+    }
+
+    .item {
+        text-align: center;
+    }
+
+    .card_item {
+        margin: 20px 30px;
+        border: #232323 solid 1px;
+        border-radius: 5%;
+        background-color: #fff1d0;
+    }
+
+    /* CÁC SẢN PHẨM MỚI THÁNG NÀY */
+
+    /* footer */
+    .listSocial {
+        border: 2px solid;
+        color: #ffffff;
+        line-height: 27.2px;
+        text-align: left;
+        opacity: 1;
+        text-align: center;
+        background-color: #232323;
+    }
+
+    #copyright,
+    #contact-us,
+    #social {
+        margin: 20px 0;
+    }
+
+    .input-group-btn button {
+        align-items: flex-start;
+        background-color: #3c5e2c;
+        color: #ffffff;
+        display: inline-block;
+        line-height: 35px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    /* footer */
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        padding: 5px;
+    }
+
+    /* navbar */
+    #menuMB li,
+    #menuMA li {
+        color: #232323;
+        line-height: 27.2px;
+        margin: 0 8px 0 0;
+        padding: 0 0 10px 10px;
+    }
+
+    #menuMB a,
+    #menuMA a {
+        color: #555555;
+        display: inline-block;
+        font-size: 20px;
+        line-height: 22px;
+        /* text-align: center; */
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    #logo img {
+        max-width: 50%;
+        margin-right: 30px;
+    }
+
+    /* navbar */
+
+    /* slide */
+    .imgSlide img {
+        background-position: 50% 50%;
+        background-size: cover;
+        height: 200px;
+    }
+    .Slide {
+        height: 280px;
+        background-color: #fff1d0;
+        color: #232323;
+        line-height: 20px;
+        padding: 15px 0;
+        text-align: left;
+        border-top: solid 1px;
+        border-bottom: solid 2px #3c5e2c;
+    }
+    .wow.fadeInUp {
+        color: #555555;
+        font-size: 17px;
+        line-height: 28.9px;
+        margin: 0 0 8px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .wow.fadeIn {
+        color: #232323;
+        font-size: 14px;
+        text-align: center;
+    }
+    .more.wow.fadeIn {
+        font-size: 14px;
+        line-height: 21px;
+        text-align: right;
+        font-style: italic;
+    }
+    .more.wow.fadeIn a {
+        color: #3c5e2c;
+    }
+    /* slide */
+
+    /* KHÔNG GIAN QUÁN */
+    .envir {
+        border-top: solid 2px;
+        border-bottom: solid 2px;
+    }
+
+    .bg1 img,
+    .bg2 img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .envir-text {
+        width: 250px;
+        position: absolute;
+        background-color: #fff1d0;
+        margin-top: 250px;
+        margin-left: 20px;
+        padding: 10px 30px;
+        opacity: 0.8;
+    }
+
+    /* KHÔNG GIAN QUÁN */
+
+    /* TIN TỨC */
+    #Kienthuc h3,
+    #Tintuc h3 {
+        padding: 20px 0;
+        text-align: center;
+        font-weight: bold;
+        border-top: solid 1px;
+        color: #3c5e2c;
+        line-height: 22.1px;
+        text-transform: uppercase;
+    }
+
+    #Kienthuc {
+        background-color: darkseagreen;
+        border: solid 1px;
+    }
+
+    #Tintuc {
+        background-color: beige;
+        border: solid 1px;
+    }
+
+    .tinnhanh img {
+        width: 100%;
+        border-radius: 5%;
+    }
+
+    .noidung {
+        margin: 20px;
+    }
+
+    .noidung p {
+        font-style: italic;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    .cool-link {
+        text-decoration: none;
+        color: brown;
+        text-align: center;
+    }
+
+    .cool-link::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        transition: .3s;
+        background-color: brown;
+    }
+
+    .cool-link:hover::after {
+        width: 100%;
+        transition: .3s;
+    }
+
+    .links {
+        padding-left: 0;
+    }
+
+    /* TIN TỨC */
+
+    /* CÁC SẢN PHẨM MỚI THÁNG NÀY */
+    .titleNewProduct {
+        padding: 20px;
+        text-align: center;
+        background-color: lightblue;
+    }
+
+    .newProduct {
+        border-top: #3c5e2c solid 2px;
+        text-align: center;
+        background-color: darkkhaki;
+    }
+
+    .item {
+        text-align: center;
+    }
+
+    .card_item {
+        margin: 20px 30px;
+        border: #232323 solid 1px;
+        border-radius: 5%;
+        background-color: #fff1d0;
+    }
+
+    /* CÁC SẢN PHẨM MỚI THÁNG NÀY */
+
+    /* footer */
+    .listSocial {
+        border: 2px solid;
+        color: #ffffff;
+        line-height: 27.2px;
+        text-align: left;
+        opacity: 1;
+        text-align: center;
+        background-color: #232323;
+    }
+
+    #copyright,
+    #contact-us,
+    #social {
+        margin: 20px 0;
+    }
+
+    .input-group-btn button {
+        align-items: flex-start;
+        background-color: #3c5e2c;
+        color: #ffffff;
+        display: inline-block;
+        line-height: 35px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    /* footer */
+}
+
+/* mobile */
+
+* {
+    font-family: 'Varela Round', sans-serif;
+}
+
+#khung {
+    background-color: #bdb76b;
+}
+
+.row-item {
+    justify-content: center;
+}
+
+.newProduct {
+    background-color: #bdb76b;
+}
+
+.more.wow.fadeIn {
+    padding-right: 50px;
+}
+
+.noidung .more.wow.fadeIn {
+    padding-right: 0;
+}
+
+.noidung {
+    text-align: left;
+}
+
+.scroll-to-top {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    padding: 9px 12px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    display: none;
+}
+
+.scroll-to-top:hover {
+    background-color: #d7d7d7;
+    color: #000;
+}

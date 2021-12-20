@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng tin</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/news.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="border-bottom: solid 2px #3c5e2c;">
+            <!-- leftside -->
+            <div class="menuMB collapse multi-collapse navbar-collapse order-lg-1 order-3" id="menuMA">
+                <ul class="navbar-nav ml-auto" id="left">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./news.html">Bảng Tin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Thực Đơn</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- leftside -->
+            <a class="navbar-brand order-2" href="../index.html" id="logo">
+                <img src="https://cdn.discordapp.com/attachments/887517160660926495/915472371165569044/Saigon_Xua_Goc_-_Copy_2.png"
+                    alt="..." style="border-radius: 50%;">
+            </a>
+            <button class="navbar-toggler order-6" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
+                aria-controls="menuMA menuMB" aria-expanded="false" aria-label="Toggle navigation" style="margin-left: 10px;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- rightside -->
+            <div class="menuMB collapse multi-collapse navbar-collapse order-lg-3 order-3" id="menuMB">
+                <ul class="navbar-nav mr-auto" id="right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Khuyến
+                            Mãi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./trangsanpham.html">Cửa Hàng</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Liên Hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- rightside -->
+        </nav>
+    </header>
+
+    <div class="container" id="khung_tin">
+        <div class="row">
+            <div class="col-12">
+                <h1><strong>TIN TỨC - SỰ KIỆN</strong></h1>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card-item card shadow mb-5 bg-body rounded-lg">
+                    <a href="./tin2.html">
+                        <img src="https://scontent.fsgn5-1.fna.fbcdn.net/v/t1.15752-9/263466413_623738575541110_8279111372240036660_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=ae9488&_nc_ohc=miLeVjJGL-0AX-4iJg9&_nc_ht=scontent.fsgn5-1.fna&oh=84fcda11bbdc66fc8fd633809672e18e&oe=61D64EE9"
+                            class="card-img-top" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>THÔNG BÁO: Lịch hoạt động của Sài Gòn Xưa, Tết Nhâm Thìn
+                                2022</strong></h5>
+                        <p class="card-text">Tết này giống Tết xưa, Sài Gòn Xưa quyết Vui Xuyên Tết và đặc biệt Không
+                            Phụ
+                            Thu! Mời bạn tham khảo thêm lịch mở cửa chi tiết...</p>
+                        <a href="./tin2.html" class="btn btn-success float-end rounded-pill" id="button">Xem tiếp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card-item card shadow mb-5 bg-body rounded-lg">
+                    <a href="./tin4.html">
+                        <img src="https://monmientrung.com/wp-content/uploads/2021/08/1-ly-ca-phe-sua-bao-nhieu-calo-uong-ca-phe-co-giam-can-202107210241523516.jpg"
+                            class="card-img-top" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>HƯƠNG VỊ CUỘC SỐNG: Văn hóa cà phê Việt</strong></h5>
+                        <p class="card-text">Người ta nói: Thêm đường hết đắng. Nhưng ngọt ngào đâu có phải Cà Phê? Giọt
+                            đắng
+                            này, giọt của si mê. Như giọt đời, giọt mưa, giọt nắng...</p>
+                        <a href="./tin4.html" class="btn btn-success float-end rounded-pill">Xem tiếp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card-item card shadow mb-5 bg-body rounded-lg">
+                    <a href="./tin1.html">
+                        <img src="https://thitruongcaphe.net/wp-content/uploads/2020/07/ch%E1%BB%8Dn-c%C3%A0-ph%C3%AA-t%E1%BA%A1i-x%C6%B0%E1%BB%9Fng-Aeroco-Bu%C3%B4n-Ma-Thu%E1%BB%99t.jpg"
+                            class="card-img-top" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>THỊ TRƯỜNG CÀ PHÊ: Yếu tố nào quyết định giá cà phê trong
+                                nước</strong></h5>
+                        <p class="card-text">Cà phê là một thức uống phổ biến của thế giới nói chung và người Việt Nam
+                            nói riêng. Hãy cùng Sài Gòn Xưa tìm hiểu giá trị của cà phê phụ thuộc vào những gì nhé...
+                        </p>
+                        <a href="./tin1.html" class="btn btn-success float-end rounded-pill">Xem tiếp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card-item card shadow mb-5 bg-body rounded-lg">
+                    <a href="./tin3.html">
+                        <img src="https://cdn.discordapp.com/attachments/831114850561687632/914444365080965140/tuyen-dung-websitektth.jpg"
+                            class="card-img-top" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>TUYỂN DỤNG: Nhân viên kế toán tổng hợp</strong></h5>
+                        <p class="card-text">Sài Gòn Xưa tìm kiếm thành viên mẫn cán, đồng hành cùng chúng tôi trong
+                            hoạt động vận
+                            hành và phát triển cửa hàng. Làm việc tại văn phòng TP.HCM</p>
+                        <a href="./tin3.html" class="btn btn-success float-end rounded-pill">Xem tiếp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card-item card shadow mb-5 bg-body rounded-lg">
+                    <a href="./tin5.html">
+                        <img src="https://bonjourcoffee.vn/blog/wp-content/uploads/2019/11/ca-phe-cot-dua-768x480.jpg"
+                            class="card-img-top" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>KHÉO TAY: Hướng dẫn làm món cà phê cốt dừa cực kì đơn
+                                giản</strong></h5>
+                        <p class="card-text">Bạn là “tín đồ” của món cafe cốt dừa? Đây là bài viết bạn không thể bỏ qua.
+                            Sài Gòn Xưa sẽ chia sẻ các bước pha chế món cafe sữa dừa đơn giản, thơm ngon ngay tại nhà.
+                        </p>
+                        <a href="./tin5.html" class="btn btn-success float-end rounded-pill">Xem tiếp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card-item card shadow mb-5 bg-body rounded-lg">
+                    <a href="./tintucchitiet.html">
+                        <img src="https://scontent.fsgn5-9.fna.fbcdn.net/v/t1.15752-9/263300794_325728292446933_8719238282228184399_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=ae9488&_nc_ohc=FagjG10kVLUAX8FvrhG&_nc_ht=scontent.fsgn5-9.fna&oh=f908e6fd9abcaed9142d9fe9931a34ec&oe=61D589B5"
+                            class="card-img-top" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>TUYỂN DỤNG: Quản lý cửa hàng Sài Gòn Xưa</strong></h5>
+                        <p class="card-text">Sài Gòn Xưa tìm kiếm thành viên mẫn cán, đồng hành cùng chúng tôi trong
+                            hoạt động vận hành và phát triển cửa hàng.</p>
+                        <a href="./tintucchitiet.html" class="btn btn-success float-end rounded-pill">Xem tiếp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card-item card shadow mb-5 bg-body rounded-lg">
+                    <a href="#">
+                        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/263678936_354248309804394_4496220013519454569_n.png?_nc_cat=102&ccb=1-5&_nc_sid=aee45a&_nc_ohc=9JYi2YnnNX8AX_Jlea1&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=0e9a32a9e25aaec834069dc2797504c8&oe=61D40ED5"
+                            class="card-img-top" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Phân công nhiệm vụ bài thực hành nhóm</strong></h5>
+                        <p class="card-text"><strong>Thời gian thực hiện:</strong> 1 tuần <br><strong>Hạn nộp:</strong>
+                            8/12/2021</p>
+                        <a href="#" class="btn btn-success float-end rounded-pill">Xem tiếp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card-item card shadow mb-5 bg-body rounded-lg">
+                    <a href="#">
+                        <img src="https://file1.dangcongsan.vn/DATA/0/2017/06/images1881850_aaaa-17_03_46_950.jpg"
+                            class="card-img-top" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>THỊ TRƯỜNG CÀ PHÊ: Yếu tố tích cực và tiêu cực</strong></h5>
+                        <p class="card-text">Hãy cùng Sài Gòn Xưa tìm hiểu những vấn đề mà thị trường cà phê đang gặp
+                            phải và
+                            những điều tích cực sau giai đoạn đại dịch COVID-19...</p>
+                        <a href="#" class="btn btn-success float-end rounded-pill">Xem tiếp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card-item card shadow mb-5 bg-body rounded-lg">
+                    <a href="#">
+                        <img src="https://media.discordapp.net/attachments/887517160660926495/916564432635699220/cho-ben-thanh-xua-va-nay-2.jpg"
+                            class="card-img-top" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>HƯƠNG VỊ CUỘC SỐNG: Sài Gòn xưa và nay</strong></h5>
+                        <p class="card-text">Người ta nói, Sài Gòn có cả quá khứ, hiện tại và tương lai. Sài Gòn hối hả,
+                            tất bật với nhịp sống hiện đại, lưu giữ những kỷ niệm...</p>
+                        <a href="#" class="btn btn-success float-end rounded-pill">Xem tiếp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card-item card shadow mb-5 bg-body rounded-lg">
+                    <a href="#">
+                        <img src="https://image.thanhnien.vn/2048/uploaded/hoangnam/2021_05_02/sk010504anh2_moho.jpg"
+                            class="card-img-top" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>KIẾN THỨC: Uống cà phê sao có người lại buồn ngủ?</strong></h5>
+                        <p class="card-text">Uống cà phê có thể khiến một số người cảm thấy mệt mỏi hoặc buồn ngủ, nhưng
+                            bản thân cà phê không phải là nguyên nhân. Đây có thể là lý do!</p>
+                        <a href="#" class="btn btn-success float-end rounded-pill">Xem tiếp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-6" id="tinlienquan">
+                <div>
+                    <h1 class="tin-title">Có thể bạn quan tâm</h1>
+                    <div class="tin-body">
+                        <ul>
+                            <li>
+                                <a href="./tin1.html"><i style="font-size: 24px" class="fa">&#xf0f4;
+                                        THỊ TRƯỜNG CÀ PHÊ: Yếu tố nào quyết định giá cà phê?</i></a>
+                            </li>
+                            <li>
+                                <a href="./tin4.html"><i style="font-size: 24px" class="fa">&#xf0f4; HƯƠNG VỊ CUỘC SỐNG:
+                                        Văn hóa cà phê Việt</i></a>
+                            </li>
+                            <li>
+                                <a href="./tintucchitiet.html"><i style="font-size: 24px" class="fa">&#xf0f4; TUYỂN
+                                        DỤNG: Quản lý cửa hàng</i></a>
+                            </li>
+                            <li>
+                                <a href="./tin3.html"><i style="font-size: 24px" class="fa">&#xf0f4; TUYỂN DỤNG: Nhân
+                                        viên kế toán tổng hợp</i></a>
+                            </li>
+                            <li>
+                                <a href="./tin5.html"><i style="font-size: 24px" class="fa">&#xf0f4; KHÉO TAY: Hướng dẫn
+                                        làm món cà phê cốt dừa cực
+                                        kì đơn giản</i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12" id="trang" style="text-align: center;">
+                <a href="#" class="btn p-1 btn-secondary">1</a>
+                <a href="#" class="btn p-1 btn-secondary">2</a>
+                <a href="#" class="btn p-1 btn-secondary">3</a>
+                <span>...</span>
+                <a href="#" class="btn p-1 btn-secondary">Trang tiếp>></a>
+                <a href="#" class="btn p-1 btn-secondary">Trang cuối</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="listSocial">
+            <div class="container-fluid">
+                <div class="row">
+                    <div id="copyright">
+                        <h5><strong>CÔNG TY TNHH Sài Gòn Xưa</strong></h5>
+                        Mã số DN: 010xxxxxxx do Sở Kế hoạch và Đầu tư TP. HCM cấp ngày dd/mm/2020
+                        <br>
+                        Địa chỉ: Số 35 Nguyễn Du, phường Bến Nghé, quận 1, TP.HCM - Số điện thoại: +84 647 525 xxx -
+                        Email:
+                        SGXua@gmail.com
+                        <br>
+                        ©2017 - 2021 <span style="font-weight: bold;">Công ty TNHH Sài Gòn Xưa</span> Mọi quyền được bảo
+                        lưu
+                    </div>
+
+                    <div id="contact-us">
+                        <h5><strong>LUÔN CẬP NHẬT</strong></h5>
+                        <p>Về các tin tức đó đây, sản phẩm mới</p>
+                        <form id="myFormSub">
+                            <div class="input-group">
+                                <input type="email" class="form-control newsletter-email" name="email" id="email"
+                                    size="13" placeholder="Email" required="">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="submit" name="subscribe"
+                                        id="mc-embedded-subscribe">Đăng Ký</button>
+                                </span>
+                            </div>
+                        </form>
+                        <div class="showMessageMe">
+                            <span>Chúng tôi tôn trọng quyền riêng tư của bạn</span>
+                        </div>
+                    </div>
+                    <div id="social">
+                        <h5><strong>KÊNH KẾT NỐI</strong></h5>
+                        <div class="listSocial-c">
+                            <a href="https://www.facebook.com/" style="margin: 0">
+                                <img src="https://congcaphe.com/_next/static/images/img-social1-4fc4cd981cb1006080240cb7772942e5.png"
+                                    alt="FB" height="30">
+                            </a>
+                            <a href="https://www.instagram.com/">
+                                <img src="https://congcaphe.com/_next/static/images/img-social2-2cc32fbda7ce37c5de995496e2d5cd64.png"
+                                    alt="INS" height="30">
+                            </a>
+                            <a href="https://www.youtube.com/">
+                                <img src="https://congcaphe.com/_next/static/images/img-social3-49ffe7d53999fb347519f610c61d6285.png"
+                                    alt="Youtube" height="23">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Scroll To Top Button-->
+    <a class="scroll-to-top" href="#">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </a>
+    <!--Scroll To Top Button-->
+    <script src="../js/scroll.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

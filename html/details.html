@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết sản phẩm</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="http://yoursite.com/themify-icons.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/detail.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="border-bottom: solid 2px #3c5e2c;">
+            <!-- leftside -->
+            <div class="collapse multi-collapse navbar-collapse order-lg-1 order-3" id="menuMA">
+                <ul class="navbar-nav ml-auto" id="left">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./news.html">Bảng Tin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Thực Đơn</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- leftside -->
+            <a class="navbar-brand order-2" href="../index.html" id="logo">
+                <img src="https://cdn.discordapp.com/attachments/887517160660926495/915472371165569044/Saigon_Xua_Goc_-_Copy_2.png"
+                    alt="..." style="border-radius: 50%;">
+            </a>
+            <button class="navbar-toggler order-6" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
+                aria-controls="menuMA menuMB" aria-expanded="false" aria-label="Toggle navigation" style="margin-left: 10px;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- rightside -->
+            <div class="collapse multi-collapse navbar-collapse order-lg-3 order-3" id="menuMB">
+                <ul class="navbar-nav mr-auto" id="right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Khuyến
+                            Mãi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./trangsanpham.html">Cửa Hàng</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Liên Hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- rightside -->
+        </nav>
+    </header>
+
+    <div id="main">
+        <div class="container">
+            <div class="row">
+                <!-- sản phẩm -->
+                <div class="row mt-32 p-50" id="pro-info">
+                    <!-- ảnh sản phẩm -->
+                    <div class="col-sm-6 product-img p-rl-20" id="hinhsp">
+                        <img src="https://cdn.discordapp.com/attachments/919908275447820369/919908318569443398/1.png"
+                            alt="hình sản phẩm" style="background-color: rgb(250, 250, 250);">
+                    </div>
+                    <!-- thuộc tính -->
+                    <div class="col-sm-6 properties-product pb-50 p-rl-20">
+                        <h2 style="font-size: 34px;" class="header-pro bold-text">Cà Phê AU LAIT</h2>
+                        <div class="name-pro flex items-center pb-10">
+                            <div class="flex">
+                                <h4 class="flex items-center p-r-10 cost-pro ">Giá: </h4>
+                                <div class="old-price "
+                                    style="font-size: 24px ; margin-right: 5px; text-decoration: line-through;">
+                                    1.000.000đ</div>
+
+                            </div>
+                            <div class="new-price">
+                                <div class="price-new p-rl-10 bold-text">200.000đ</div>
+                                <div class="discount p-rl-10">80% GIẢM</div>
+                            </div>
+                        </div>
+
+                        <div class="count-pro flex items-center _90fTvx pb-10">
+                            <div class="_2IW_UG p-r-10 flex ">Số lượng
+                                <div class="flex items-center chonsoluong" style="margin-right: 15px;">
+                                    <div class="_16mL_A shopee-input-quantity p-r-10">
+                                        <input type="button" onclick="tru()" value="-"/>
+                                        <input type="text" value="1" style="width: 40px; height: 40px; padding: 10px 9px"
+                                            id="textbox" />
+                                        <input type="button" onclick="cong()" value="+" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="available" style="font-size: 20px;">1000 sản phẩm có sẵn</div>
+                        <div class="buy-product flex" style="padding: 10px 0;">
+                            <button class="btn pick-btn p-rl-20 mr-10 btn1"
+                                style="border: none; margin-right: 50px; font-size: 23px;">
+                                <i class="fa fa-cart-plus" aria-hidden="true"></i> Thêm vào giỏ hàng
+                            </button>
+                            <button class="btn1 btn buy-now-btn p-rl-20" style="font-size: 23px;">Mua ngay</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- chi tiết -->
+                <div class="row  p-50" id="pro-desc">
+                    <h2 class="bold-text upper-text" style="margin-bottom: 10px; padding: 0;">Thông tin chi tiết sản
+                        phẩm</h2>
+                    <h5 class="more-info-pro" style="padding: 0;">Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Accusamus repellat dolorem eius magni temporibus? Nisi ratione harum explicabo excepturi
+                        nostrum magni, cum veritatis corporis ipsam vel expedita nihil, beatae cupiditate.
+                        Quod deserunt tempore illum quo facilis similique sed! Itaque at, dolore sed esse maxime
+                        consectetur assumenda similique beatae corrupti placeat tenetur magnam perspiciatis culpa
+                        voluptatibus fugit incidunt explicabo, totam magni.
+                        Dolor porro ad dolore sunt, necessitatibus voluptates accusamus autem quidem doloribus
+                        reiciendis dolorem at non, alias quam, facere deleniti officia vero nam? Laudantium ad
+                        necessitatibus velit quasi ea tempore rem.
+                        Architecto blanditiis necessitatibus ad? Eveniet, quo distinctio quam ex omnis quas, tenetur
+                        minima architecto nostrum dolorum adipisci blanditiis odio autem quos assumenda natus! Illum
+                        blanditiis veniam consequuntur commodi unde? Quaerat!
+                        Magnam delectus nisi mollitia neque ipsa dolore possimus, obcaecati temporibus. At eum a
+                        molestiae eos voluptatem iusto eaque neque sequi beatae itaque blanditiis deserunt, consequatur
+                        commodi tenetur odit assumenda libero?</h5>
+                </div>
+                <!-- đánh giá -->
+                <div class="row p-a-50" id="pro-rating">
+                    <div class="pro-header bold-text">
+                        <h2><strong>Đánh giá sản phẩm</strong></h2>
+                    </div>
+                    <!-- đánh giá sao -->
+                    <div class="review-rating">
+                        <div class="review-rating__inner">
+                            <div class="customer-review__summary">
+                                <div class="review-rating__point">4.69</div>
+                                <div class="review-rating__stars">
+                                    <div class="stars-total">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="review-rating__total">
+                                        1434 nhận xét
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="review-rating__detail">
+                                <div class="review-rating__level">
+                                    <!-- 5 sao -->
+                                    <div class="stars">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="processBar irgthR">
+                                        <div style="width: 80%;"></div>
+                                    </div>
+                                    <div class="review-rating__number">
+                                        1147
+                                    </div>
+                                </div>
+
+                                <div class="review-rating__level">
+                                    <!-- 4 sao -->
+                                    <div class="stars">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="processBar irgthR">
+                                        <div style="width: 15%;"></div>
+                                    </div>
+                                    <div class="review-rating__number">
+                                        215
+                                    </div>
+                                </div>
+
+                                <div class="review-rating__level">
+                                    <!-- 3 sao -->
+                                    <div class="stars">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="processBar irgthR">
+                                        <div style="width: 3%;"></div>
+                                    </div>
+                                    <div class="review-rating__number">
+                                        43
+                                    </div>
+                                </div>
+
+                                <div class="review-rating__level">
+                                    <!-- 2 sao -->
+                                    <div class="stars">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="processBar irgthR">
+                                        <div style="width: 2%;"></div>
+                                    </div>
+                                    <div class="review-rating__number">
+                                        28
+                                    </div>
+                                </div>
+
+                                <div class="review-rating__level">
+                                    <!-- 1 sao -->
+                                    <div class="stars">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="processBar irgthR">
+                                        <div style="width: 1%;"></div>
+                                    </div>
+                                    <div class="review-rating__number">
+                                        14
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- list-review -->
+                    <div id="rating">
+                        <div id="product-rating" class="">
+                            <div class="pro-rating-list">
+                                <div class="pro-rating">
+                                    <a href="#" class="pro-rating__avata">
+                                        <div class="avata"></div>
+                                    </a>
+                                </div>
+
+                                <div class="pro-rating__main">
+                                    <a href="https://www.facebook.com/charlestuan1214/"
+                                        class="pro-rating__author-name">Cáp Hữu Tuấn</a>
+                                    <div class="repeat-purchase-con">
+                                        <div class="pro-rating__rating">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </div>
+                                        <!-- <div class="review-comment">Cực kì hài lòng</div> -->
+                                    </div>
+                                    <div class="pro-rating__time">
+                                        2021-10-10 15:34
+                                    </div>
+                                    <div class="pro-rating__content p-a-10">
+                                        Đã mua và dùng thử, cà phê rất ngon, có lẽ tôi sẽ trở thành đại lí phân phối cà
+                                        phê của công ty này.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pro-rating-list">
+                                <div class="pro-rating">
+                                    <a href="#" class="pro-rating__avata">
+                                        <div class="avata"></div>
+                                    </a>
+                                </div>
+
+                                <div class="pro-rating__main">
+                                    <a href="https://www.facebook.com/minhtri.nguyen.4548"
+                                        class="pro-rating__author-name">Nguyễn Minh Trí</a>
+                                    <div class="repeat-purchase-con">
+                                        <div class="pro-rating__rating">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </div>
+                                        <!-- <div class="review-comment">Cực kì hài lòng</div> -->
+                                    </div>
+                                    <div class="pro-rating__time">
+                                        2021-10-2 08:35
+                                    </div>
+                                    <div class="pro-rating__content p-a-10">
+                                        Tôi cũng như những người khác, cảm nhận vị cà phê rất ngon, thơm. Sẽ ủng hộ thêm
+                                        nhiều lần nữa.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pro-rating-list">
+                                <div class="pro-rating">
+                                    <a href="#" class="pro-rating__avata">
+                                        <div class="avata"></div>
+                                    </a>
+                                </div>
+
+                                <div class="pro-rating__main">
+                                    <a href="https://www.facebook.com/nguoitraidat2002"
+                                        class="pro-rating__author-name">Tạ Đông Quân</a>
+                                    <div class="repeat-purchase-con">
+                                        <div class="pro-rating__rating">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </div>
+                                        <!-- <div class="review-comment">Cực kì hài lòng</div> -->
+                                    </div>
+                                    <div class="pro-rating__time">
+                                        2021-05-16 18:07
+                                    </div>
+                                    <div class="pro-rating__content p-a-10">
+                                        Cà phê rất thơm và cực kỳ ngon, đáng đồng tiền, mọi người nên mua dùng thử 1
+                                        lần.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="more-rating"><a href="">Xem thêm</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="listSocial">
+            <div class="container-fluid">
+                <div class="row">
+                    <div id="copyright">
+                        <h3><strong>CÔNG TY TNHH SaiGonXưa</strong></h3>
+                        Mã số DN: 010xxxxxxx do Sở Kế hoạch và Đầu tư TP. HCM cấp ngày
+                        dd/mm/2020
+                        <br />
+                        Địa chỉ: Số 35 Nguyễn Du, phường Bến Nghé, quận 1, TP.HCM - Số
+                        điện thoại: +84 647 525 xxx - Email: SGXua@gmail.com
+                        <br />
+                        &copy;2017 - 2021
+                        <span style="font-weight: bold">Công ty TNHH SaiGon_Xưa</span> Mọi
+                        quyền được bảo lưu
+                    </div>
+
+                    <div id="contact-us">
+                        <h3><strong>LUÔN CẬP NHẬT</strong></h3>
+                        <p>Về các tin tức đó đây, sản phẩm mới</p>
+                        <form id="myFormSub">
+                            <div class="input-group">
+                                <input type="email" class="form-control newsletter-email" name="email" id="email"
+                                    size="13" placeholder="Email" required="" />
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="submit" name="subscribe"
+                                        id="mc-embedded-subscribe">
+                                        Đăng Ký
+                                    </button>
+                                </span>
+                            </div>
+                        </form>
+                        <div class="showMessageMe">
+                            <span>Chúng tôi tôn trọng quyền riêng tư của bạn</span>
+                        </div>
+                    </div>
+                    <div id="social">
+                        <h4><strong>KÊNH KẾT NỐI</strong></h4>
+                        <div class="listSocial-c">
+                            <a href="https://www.facebook.com/" style="margin: 0">
+                                <img src="https://congcaphe.com/_next/static/images/img-social1-4fc4cd981cb1006080240cb7772942e5.png"
+                                    alt="FB" height="30" />
+                            </a>
+                            <a href="https://www.instagram.com/">
+                                <img src="https://congcaphe.com/_next/static/images/img-social2-2cc32fbda7ce37c5de995496e2d5cd64.png"
+                                    alt="INS" height="30" />
+                            </a>
+                            <a href="https://www.youtube.com/">
+                                <img src="https://congcaphe.com/_next/static/images/img-social3-49ffe7d53999fb347519f610c61d6285.png"
+                                    alt="Youtube" height="23" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Start Scroll To Top -->
+    <a class="scroll-to-top" href="#">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </a>
+    <!--Stop Scroll To Top -->
+
+    <script type="text/javascript" src="../js/quantily.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <script src="../../js/scroll.js"></script>
+</body>
+
+</html>
