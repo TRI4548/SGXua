@@ -1,57 +1,62 @@
 /* PC */
 @media screen and (min-width: 1440px) {
   body {
-    padding: 0 100px;
-    
+    padding: 100px 50px 0 50px;
   }
+
+  header {
+    padding: 0 50px;
+  }
+
   /* navbar */
   #menuMB li,
   #menuMA li {
-      color: #232323;
-      line-height: 27.2px;
-      margin: 0 8px 0 0;
-      padding: 0 35px;
-      text-align: center;
+    color: #232323;
+    line-height: 22px;
+    margin: 0 8px 0 0;
+    padding: 0 35px;
+    text-align: center;
   }
 
   #menuMB ul,
   #menuMA ul {
-      color: #232323;
-      line-height: 27.2px;
-      text-align: center;
+    color: #232323;
+    line-height: 20px;
+    text-align: center;
   }
 
   #menuMB,
   #menuMA {
-      color: #232323;
-      align-items: center;
-      justify-content: center;
-      line-height: 27.2px;
-      text-align: center;
+    color: #232323;
+    align-items: center;
+    justify-content: center;
+    line-height: 22px;
+    text-align: center;
   }
 
   #menuMB a,
   #menuMA a {
-      color: #555555;
-      display: inline-block;
-      font-size: 18px;
-      line-height: 25px;
-      text-align: center;
-      text-transform: uppercase;
-      text-decoration: none;
-      font-weight: bold;
+    color: #555555;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
   }
 
   #logo img {
-      width: 75%;
+    width: 65%;
   }
 
   #logo {
-      margin: 0;
-      padding-left: 35px;
-      padding-top: 0;
-      padding-bottom: 0;
+    margin: 0;
+    padding-left: 35px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
+
   /* navbar */
 
   /*   chỗ này mn bổ sung phần chỉnh sửa dành cho pc */
@@ -73,6 +78,7 @@
     margin-left: 20px;
     font-size: 18px;
   }
+
   /*   chỗ này mn bổ sung phần chỉnh sửa dành cho pc */
 
   /* Footer */
@@ -136,84 +142,94 @@
     color: #232323;
     text-align: left;
   }
+
   /* Footer */
 }
+
 /* PC */
 
 /* laptop L */
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
   body {
-    padding: 0 50px;
-    
+    padding: 120px 30px 0 30px;
   }
+
+  header {
+    padding: 0 30px;
+  }
+
   /* navbar */
   #menuMB li,
   #menuMA li {
-      color: #232323;
-      
-      line-height: 27.2px;
-      margin: 0 0 8px 0;
-      padding: 0 30px;
-      text-align: center;
+    color: #232323;
+
+    line-height: 27.2px;
+    margin: 0 0 8px 0;
+    padding: 0 30px;
+    text-align: center;
   }
-  
+
   #menuMB ul,
   #menuMA ul {
-      color: #232323;
-      line-height: 27.2px;
-      text-align: center;
+    color: #232323;
+    line-height: 27.2px;
+    text-align: center;
   }
-  
+
   #menuMB,
   #menuMA {
-      color: #232323;
-      align-items: center;
-      
-      justify-content: center;
-      line-height: 27.2px;
-      text-align: center;
+    color: #232323;
+    align-items: center;
+
+    justify-content: center;
+    line-height: 27.2px;
+    text-align: center;
   }
-  
+
   #menuMB a,
   #menuMA a {
-      color: #555555;
-      display: inline-block;
-      
-      font-size: 18px;
-      line-height: 25px;
-      text-align: center;
-      text-transform: uppercase;
-      text-decoration: none;
-      font-weight: bold;
+    color: #555555;
+    display: inline-block;
+
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
   }
 
   #logo img {
-      width: 75%;
+    width: 75%;
   }
 
   #logo {
-      margin: 0;
-      padding-left: 35px;
+    margin: 0;
+    padding-left: 35px;
   }
+
   /* navbar */
 
   /* chỗ này là chỗ chỉnh sửa body nha */
   #col9 {
     border-left: rgb(204, 204, 204) solid 2px;
   }
+
   .card-image {
     width: 100%;
     height: 200px;
   }
+
   #list-menu-ul {
     list-style: none;
     margin-left: -25px;
   }
+
   .cflon {
     width: 100%;
     height: 300px;
-}
-  
+  }
+
   /* chỗ này là chỗ chỉnh sửa body nha */
   /* Footer */
   .listSocial {
@@ -276,64 +292,71 @@
     color: #232323;
     text-align: left;
   }
+
   /* Footer */
 }
+
 /* laptop L */
 
 /* chỗ này tui muốn call để giải thích với mn */
 @media screen and (min-width: 992px) and (max-width: 1023px) {
   body {
-    padding: 0 50px;
-    
+    padding: 100px 10px 0 10px;
   }
+
+  header {
+    padding: 0 10px;
+  }
+
   /* navbar */
   #menuMB li,
   #menuMA li {
-      color: #232323;
-      
-      line-height: 27.2px;
-      padding: 15px;
-      text-align: center;
+    color: #232323;
+
+    line-height: 27.2px;
+    padding: 15px;
+    text-align: center;
   }
-  
+
   #menuMB ul,
   #menuMA ul {
-      color: #232323;
-      line-height: 27.2px;
-      text-align: center;
+    color: #232323;
+    line-height: 27.2px;
+    text-align: center;
   }
-  
+
   #menuMB,
   #menuMA {
-      color: #232323;
-      align-items: center;
-      
-      justify-content: center;
-      line-height: 27.2px;
-      text-align: center;
+    color: #232323;
+    align-items: center;
+
+    justify-content: center;
+    line-height: 27.2px;
+    text-align: center;
   }
-  
+
   #menuMB a,
   #menuMA a {
-      color: #555555;
-      display: inline-block;
-      
-      font-size: 18px;
-      line-height: 25px;
-      text-align: center;
-      text-transform: uppercase;
-      text-decoration: none;
-      font-weight: bold;
+    color: #555555;
+    display: inline-block;
+
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
   }
 
   #logo img {
-      width: 75%;
+    width: 75%;
   }
 
   #logo {
-      margin: 0;
-      padding-left: 35px;
+    margin: 0;
+    padding-left: 35px;
   }
+
   /* navbar */
 
   /* chỗ này là chỗ chỉnh sửa body nha */
@@ -341,17 +364,21 @@
     width: 100%;
     height: 150px;
   }
+
   #col9 {
     border-left: rgb(204, 204, 204) solid 2px;
   }
+
   #list-menu-ul {
     list-style: none;
     margin-left: -10px;
   }
+
   .cflon {
     width: 100%;
     height: 280px;
-}
+  }
+
   /* chỗ này là chỗ chỉnh sửa body nha */
 
   /* Footer */
@@ -370,6 +397,7 @@
     background-color: #232323;
     padding: 20px;
   }
+
   #social {
     width: 30%;
     padding-top: 20px;
@@ -391,56 +419,63 @@
   #social {
     text-align: right;
   }
+
   /* footer */
 }
+
 /* chỗ này tui muốn call để giải thích với mn */
 
 /* laptop */
 @media screen and (min-width: 768px) and (max-width: 991px) {
   body {
-    padding: 0 30px;
-    
+    padding: 150px 20px 0 20px;
   }
-/* navbar */
-#menuMB li,
-#menuMA li {
+
+  header {
+    padding: 0 20px;
+  }
+
+  /* navbar */
+  #menuMB li,
+  #menuMA li {
     color: #232323;
-    
+
     line-height: 27.2px;
     padding: 10px;
     text-align: center;
-}
+  }
 
-#menuMB ul,
-#menuMA ul {
+  #menuMB ul,
+  #menuMA ul {
     color: #232323;
     line-height: 27.2px;
     text-align: center;
-}
+  }
 
-#menuMB,
-#menuMA {
+  #menuMB,
+  #menuMA {
     color: #232323;
     align-items: center;
-    
+
     justify-content: center;
     line-height: 27.2px;
     text-align: center;
-}
+  }
 
-#menuMB a,
-#menuMA a {
+  #menuMB a,
+  #menuMA a {
     color: #555555;
     display: inline-block;
-    
+
     font-size: 20px;
     line-height: 34px;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
-}
-/* navbar */
+  }
+
+  /* navbar */
 
   /* chỗ này là chỗ chỉnh sửa body nha */
 
@@ -448,17 +483,21 @@
     width: 100%;
     height: 130px;
   }
+
   #col9 {
     border-left: rgb(204, 204, 204) solid 2px;
   }
+
   #list-menu-ul {
     list-style: none;
     margin-left: -25px;
   }
+
   .cflon {
     width: 100%;
     height: 200px;
-}
+  }
+
   /* .card-image img {
       width: 100%;
       height: 1em;
@@ -482,6 +521,7 @@
     background-color: #232323;
     padding: 20px;
   }
+
   #social {
     width: 30%;
     padding-top: 20px;
@@ -503,57 +543,63 @@
   #social {
     text-align: right;
   }
+
   /* footer */
 }
+
 /* laptop */
 
 /* tablet */
 @media screen and (min-width: 426px) and (max-width: 767px) {
   body {
-    padding: 0 10px;
-    
+    padding: 156px 10px 0 10px;
   }
+
   /* navbar */
   #menuMB li,
   #menuMA li {
-      color: #232323;
-      
-      line-height: 27.2px;
-      margin: 0 8px 0 0;
-      padding: 20px;
-      text-align: center;
+    color: #232323;
+
+    line-height: 27.2px;
+    margin: 0 8px 0 0;
+    padding: 20px;
+    text-align: center;
   }
+
   #menuMB ul,
   #menuMA ul {
-      color: #232323;
-      line-height: 27.2px;
-      text-align: center;
+    color: #232323;
+    line-height: 27.2px;
+    text-align: center;
   }
+
   #menuMB a,
   #menuMA a {
-      color: #555555;
-      display: inline-block;
-      
-      font-size: 20px;
-      line-height: 22px;
-      text-align: center;
-      text-transform: uppercase;
-      text-decoration: none;
-      font-weight: bold;
+    color: #555555;
+    display: inline-block;
+
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
   }
+
   /* navbar */
 
   .card-image {
     width: 100%;
     height: 280px;
   }
+
   #list-menu-ul {
     list-style: none;
   }
 
   .cflon {
-      width: 100%;
-      height: 300px;
+    width: 100%;
+    height: 300px;
   }
 
   /* Footer */
@@ -572,6 +618,7 @@
     background-color: #232323;
     padding: 20px;
   }
+
   #social {
     width: 30%;
     padding-top: 20px;
@@ -593,43 +640,46 @@
   #social {
     text-align: right;
   }
+
   /* footer */
 }
+
 /* tablet */
 
 /* mobile */
 @media screen and (min-width: 376px) and (max-width: 425px) {
   body {
-    padding: 5px;
-    
+    padding: 130px 5px 0 5px;
   }
+
   /* navbar */
   #menuMB li,
   #menuMA li {
-      color: #232323;
-      
-      line-height: 27.2px;
-      margin: 0 8px 0 0;
-      padding: 0 0 10px 10px;
+    color: #232323;
+
+    line-height: 27.2px;
+    margin: 0 8px 0 0;
+    padding: 0 0 10px 10px;
   }
 
   #menuMB a,
   #menuMA a {
-      color: #555555;
-      display: inline-block;
-      
-      font-size: 20px;
-      line-height: 22px;
-      /* text-align: center; */
-      text-transform: uppercase;
-      text-decoration: none;
-      font-weight: bold;
+    color: #555555;
+    display: inline-block;
+
+    font-size: 20px;
+    line-height: 22px;
+    /* text-align: center; */
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
   }
 
   #logo img {
-      max-width: 50%;
-      margin-right: 90px;
+    max-width: 50%;
+    margin-right: 90px;
   }
+
   /* navbar */
 
   /* chỗ này là chỗ chỉnh sửa body nha */
@@ -644,8 +694,8 @@
   }
 
   .cflon {
-      width: 100%;
-      height: 400px;
+    width: 100%;
+    height: 400px;
   }
 
   /* chỗ này là chỗ chỉnh sửa body nha */
@@ -676,38 +726,39 @@
     text-align: center;
     text-transform: uppercase;
   }
+
   /* footer */
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
   body {
-      padding: 5px;
+    padding: 118px 5px 0 5px;
   }
 
   /* navbar */
   #menuMB li,
   #menuMA li {
-      color: #232323;
-      line-height: 27.2px;
-      margin: 0 8px 0 0;
-      padding: 0 0 10px 10px;
+    color: #232323;
+    line-height: 27.2px;
+    margin: 0 8px 0 0;
+    padding: 0 0 10px 10px;
   }
 
   #menuMB a,
   #menuMA a {
-      color: #555555;
-      display: inline-block;
-      font-size: 20px;
-      line-height: 22px;
-      /* text-align: center; */
-      text-transform: uppercase;
-      text-decoration: none;
-      font-weight: bold;
+    color: #555555;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 22px;
+    /* text-align: center; */
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
   }
 
   #logo img {
-      max-width: 50%;
-      margin-right: 60px;
+    max-width: 50%;
+    margin-right: 60px;
   }
 
   /* navbar */
@@ -722,35 +773,35 @@
   }
 
   .cflon {
-      width: 100%;
-      height: 400px;
+    width: 100%;
+    height: 400px;
   }
 
   /* footer */
   .listSocial {
-      border: 2px solid;
-      color: #ffffff;
-      line-height: 27.2px;
-      text-align: left;
-      opacity: 1;
-      text-align: center;
-      background-color: #232323;
+    border: 2px solid;
+    color: #ffffff;
+    line-height: 27.2px;
+    text-align: left;
+    opacity: 1;
+    text-align: center;
+    background-color: #232323;
   }
 
   #copyright,
   #contact-us,
   #social {
-      margin: 20px 0;
+    margin: 20px 0;
   }
 
   .input-group-btn button {
-      align-items: flex-start;
-      background-color: #3c5e2c;
-      color: #ffffff;
-      display: inline-block;
-      line-height: 35px;
-      text-align: center;
-      text-transform: uppercase;
+    align-items: flex-start;
+    background-color: #3c5e2c;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
   }
 
   /* footer */
@@ -758,35 +809,33 @@
 
 @media screen and (max-width: 320px) {
   body {
-      padding: 5px;
+    padding: 100px 5px 0 5px;
   }
 
   /* navbar */
-  #menuMB li {
-      color: #232323;
-      line-height: 27.2px;
-      margin: 0 8px 0 0;
-      padding: 20px;
+  #menuMB li,
+  #menuMA li {
+    color: #232323;
+    line-height: 27.2px;
+    margin: 0 8px 0 0;
+    padding: 0 0 10px 10px;
   }
 
-  #menuMB a {
-      color: #555555;
-      display: inline-block;
-      font-size: 20px;
-      line-height: 22px;
-      /* text-align: center; */
-      text-transform: uppercase;
-      text-decoration: none;
-      font-weight: bold;
+  #menuMB a,
+  #menuMA a {
+    color: #555555;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 22px;
+    /* text-align: center; */
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
   }
 
   #logo img {
-      max-width: 50%;
-      margin-right: 30px;
-  }
-
-  #menuMB li {
-      padding: 0 0 10px 10px;
+    max-width: 50%;
+    margin-right: 30px;
   }
 
   /* navbar */
@@ -796,41 +845,52 @@
     width: 100%;
     height: 200px;
   }
+
   /* body */
 
   /* footer */
   .listSocial {
-      border: 2px solid;
-      color: #ffffff;
-      line-height: 27.2px;
-      text-align: left;
-      opacity: 1;
-      text-align: center;
-      background-color: #232323;
+    border: 2px solid;
+    color: #ffffff;
+    line-height: 27.2px;
+    text-align: left;
+    opacity: 1;
+    text-align: center;
+    background-color: #232323;
   }
 
   #copyright,
   #contact-us,
   #social {
-      margin: 20px 0;
+    margin: 20px 0;
   }
 
   .input-group-btn button {
-      align-items: flex-start;
-      background-color: #3c5e2c;
-      color: #ffffff;
-      display: inline-block;
-      line-height: 35px;
-      text-align: center;
-      text-transform: uppercase;
+    align-items: flex-start;
+    background-color: #3c5e2c;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
   }
 
   /* footer */
 }
+
 /* mobile */
 
 * {
   font-family: 'Varela Round', sans-serif;
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 5px;
+  left: 5px;
+  background-color: #fff;
 }
 
 #head h1 {
@@ -877,6 +937,7 @@
 .img-top {
   width: 100%;
 }
+
 .scroll-to-top {
   background-color: #333;
   color: #fff;
@@ -903,9 +964,11 @@
   transition: 0.5s;
   margin-top: 20px;
 }
+
 .col-md-4:hover {
   box-shadow: 5px 10px 10px #888888;
 }
+
 .row {
   margin-top: 25px;
 }
@@ -913,6 +976,7 @@
 #foot {
   margin: 0;
 }
+
 .banner img {
   width: 100%;
 }
@@ -923,18 +987,20 @@
 }
 
 .content h1 {
-    margin-left: 40px;
+  margin-left: 40px;
 }
+
 .Card {
   border-radius: 20px;
   padding: 3em 20px;
 }
+
 .info-card {
   padding-top: 10px;
 }
 
 .info-card h5:hover {
-    color: #70502e;
+  color: #70502e;
 }
 
 #list-menu-ul a {
@@ -943,6 +1009,7 @@
   font-weight: bold;
   font-size: larger;
 }
+
 .link-card {
   text-decoration: none;
   color: black;
@@ -962,5 +1029,5 @@
 }
 
 #list-menu-ul li {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }

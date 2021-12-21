@@ -3,6 +3,15 @@
     font-family: 'Varela Round', sans-serif;
 }
 
+header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 5px;
+    left: 5px;
+    background-color: #fff;
+}
+
 .reset{
     margin: 0;
     padding: 0;
@@ -322,14 +331,17 @@ input[type=button] {
 
 @media screen and (min-width: 1440px){
     body {
-        padding: 0 100px;
-        
+        padding: 100px 50px 0 50px;
+    }
+
+    header {
+        padding: 0 50px;
     }
     /* navbar */
     #menuMB li,
     #menuMA li {
         color: #232323;
-        line-height: 27.2px;
+        line-height: 22px;
         margin: 0 8px 0 0;
         padding: 0 35px;
         text-align: center;
@@ -338,7 +350,7 @@ input[type=button] {
     #menuMB ul,
     #menuMA ul {
         color: #232323;
-        line-height: 27.2px;
+        line-height: 20px;
         text-align: center;
     }
 
@@ -347,7 +359,7 @@ input[type=button] {
         color: #232323;
         align-items: center;
         justify-content: center;
-        line-height: 27.2px;
+        line-height: 22px;
         text-align: center;
     }
 
@@ -355,8 +367,8 @@ input[type=button] {
     #menuMA a {
         color: #555555;
         display: inline-block;
-        font-size: 18px;
-        line-height: 25px;
+        font-size: 16px;
+        line-height: 20px;
         text-align: center;
         text-transform: uppercase;
         text-decoration: none;
@@ -364,7 +376,7 @@ input[type=button] {
     }
 
     #logo img {
-        width: 75%;
+        width: 65%;
     }
 
     #logo {
@@ -462,8 +474,12 @@ input[type=button] {
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
-    body{
-        padding: 0 100px;
+    body {
+        padding: 120px 30px 0 30px;
+    }
+
+    header {
+        padding: 0 30px;
     }
 
     /* navbar */
@@ -640,8 +656,11 @@ input[type=button] {
 
 @media screen and (min-width: 992px) and (max-width: 1023px){
     body {
-        padding: 0 50px;
-        
+        padding: 100px 10px 0 10px;
+    }
+
+    header {
+        padding: 0 10px;
     }
     /* navbar */
     #menuMB li,
@@ -774,7 +793,11 @@ input[type=button] {
 
 @media screen and (min-width: 768px) and (max-width: 991px){
     body {
-        padding: 0 30px;
+        padding: 150px 20px 0 20px;
+    }
+
+    header {
+        padding: 0 20px;
     }
 
     /* navbar */
@@ -919,7 +942,7 @@ input[type=button] {
 
 @media screen and (min-width: 426px) and (max-width: 767px){
     body {
-        padding: 0 10px;
+        padding: 156px 10px 0 10px;
     }
     /* navbar */
     #menuMB li,
@@ -1081,9 +1104,8 @@ input[type=button] {
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px){
-
     body {
-        padding: 5px;
+        padding: 130px 5px 0 5px;
     }
     /* navbar */
     #menuMB li,
@@ -1233,7 +1255,7 @@ input[type=button] {
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
     body {
-        padding: 5px;
+        padding: 118px 5px 0 5px;
     }
   
     /* navbar */
@@ -1382,7 +1404,7 @@ input[type=button] {
   
   @media screen and (max-width: 320px) {
     body {
-        padding: 5px;
+        padding: 100px 5px 0 5px;
     }
   
     /* navbar */

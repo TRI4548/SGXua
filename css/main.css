@@ -1,13 +1,18 @@
 /* PC */
 @media screen and (min-width: 1440px) {
     body {
-        padding: 0 100px;
+        padding: 100px 50px 0 50px;
     }
+
     /* navbar */
+    header {
+        padding: 0 50px;
+    }
+
     #menuMB li,
     #menuMA li {
         color: #232323;
-        line-height: 27.2px;
+        line-height: 22px;
         margin: 0 8px 0 0;
         padding: 0 35px;
         text-align: center;
@@ -16,7 +21,7 @@
     #menuMB ul,
     #menuMA ul {
         color: #232323;
-        line-height: 27.2px;
+        line-height: 20px;
         text-align: center;
     }
 
@@ -25,7 +30,7 @@
         color: #232323;
         align-items: center;
         justify-content: center;
-        line-height: 27.2px;
+        line-height: 22px;
         text-align: center;
     }
 
@@ -33,8 +38,8 @@
     #menuMA a {
         color: #555555;
         display: inline-block;
-        font-size: 18px;
-        line-height: 25px;
+        font-size: 16px;
+        line-height: 20px;
         text-align: center;
         text-transform: uppercase;
         text-decoration: none;
@@ -42,12 +47,12 @@
     }
 
     #logo img {
-        width: 75%;
+        width: 65%;
     }
 
     #logo {
         margin: 0;
-        padding-left: 35px;
+        padding-left: 50px;
         padding-top: 0;
         padding-bottom: 0;
     }
@@ -70,7 +75,7 @@
     .imgSlide img {
         background-position: 50% 50%;
         background-size: cover;
-        height: 490px;
+        height: 500px;
     }
 
     .Slide {
@@ -339,7 +344,11 @@
 /* laptop L */
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
     body {
-        padding: 0 50px;
+        padding: 120px 30px 0 30px;
+    }
+
+    header {
+        padding: 0 30px;
     }
 
     /* navbar */
@@ -386,7 +395,7 @@
 
     #logo {
         margin: 0;
-        padding-left: 35px;
+        padding-left: 40px;
     }
 
     /* navbar */
@@ -645,7 +654,11 @@
 /* chỗ này tui muốn call để giải thích với mn */
 @media screen and (min-width: 992px) and (max-width: 1023px) {
     body {
-        padding: 0 50px;
+        padding: 100px 10px 0 10px;
+    }
+
+    header {
+        padding: 0 10px;
     }
 
     /* navbar */
@@ -691,7 +704,7 @@
 
     #logo {
         margin: 0;
-        padding-left: 35px;
+        padding-left: 40px;
     }
 
     /* navbar */
@@ -934,7 +947,11 @@
 /* laptop */
 @media screen and (min-width: 768px) and (max-width: 991px) {
     body {
-        padding: 0 30px;
+        padding: 150px 20px 0 20px;
+    }
+
+    header {
+        padding: 0 20px;
     }
 
     /* navbar */
@@ -1214,7 +1231,7 @@
 /* tablet */
 @media screen and (min-width: 426px) and (max-width: 767px) {
     body {
-        padding: 0 10px;
+        padding: 156px 10px 0 10px;
     }
 
     /* navbar */
@@ -1252,8 +1269,9 @@
     .imgSlide img {
         background-position: 50% 50%;
         background-size: cover;
-        height: 200px;
+        height: 300px;
     }
+
     .Slide {
         height: 200px;
         background-color: #fff1d0;
@@ -1264,6 +1282,7 @@
         border-top: solid 1px;
         border-bottom: solid 2px #3c5e2c;
     }
+
     .wow.fadeInUp {
         color: #555555;
         font-size: 17px;
@@ -1273,20 +1292,24 @@
         text-transform: uppercase;
         font-weight: bold;
     }
+
     .wow.fadeIn {
         color: #232323;
         font-size: 14px;
         text-align: center;
     }
+
     .more.wow.fadeIn {
         font-size: 14px;
         line-height: 21px;
         text-align: right;
         font-style: italic;
     }
+
     .more.wow.fadeIn a {
         color: #3c5e2c;
     }
+
     /* slide */
 
     /* CÁC SẢN PHẨM MỚI THÁNG NÀY */
@@ -1454,7 +1477,7 @@
 /* mobile */
 @media screen and (min-width: 376px) and (max-width: 425px) {
     body {
-        padding: 5px;
+        padding: 130px 5px 0 5px;
     }
 
     /* navbar */
@@ -1495,6 +1518,7 @@
         background-size: cover;
         height: 200px;
     }
+
     .Slide {
         height: 200px;
         background-color: #fff1d0;
@@ -1505,6 +1529,7 @@
         border-top: solid 1px;
         border-bottom: solid 2px #3c5e2c;
     }
+
     .wow.fadeInUp {
         color: #555555;
         font-size: 17px;
@@ -1514,20 +1539,24 @@
         text-transform: uppercase;
         font-weight: bold;
     }
+
     .wow.fadeIn {
         color: #232323;
         font-size: 14px;
         text-align: center;
     }
+
     .more.wow.fadeIn {
         font-size: 14px;
         line-height: 21px;
         text-align: right;
         font-style: italic;
     }
+
     .more.wow.fadeIn a {
         color: #3c5e2c;
     }
+
     /* slide */
 
     /* KHÔNG GIAN QUÁN */
@@ -1677,7 +1706,7 @@
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
     body {
-        padding: 5px;
+        padding: 118px 5px 0 5px;
     }
 
     /* navbar */
@@ -1718,6 +1747,7 @@
         background-size: cover;
         height: 200px;
     }
+
     .Slide {
         height: 225px;
         background-color: #fff1d0;
@@ -1728,6 +1758,7 @@
         border-top: solid 1px;
         border-bottom: solid 2px #3c5e2c;
     }
+
     .wow.fadeInUp {
         color: #555555;
         font-size: 17px;
@@ -1737,20 +1768,24 @@
         text-transform: uppercase;
         font-weight: bold;
     }
+
     .wow.fadeIn {
         color: #232323;
         font-size: 14px;
         text-align: center;
     }
+
     .more.wow.fadeIn {
         font-size: 14px;
         line-height: 21px;
         text-align: right;
         font-style: italic;
     }
+
     .more.wow.fadeIn a {
         color: #3c5e2c;
     }
+
     /* slide */
 
     /* KHÔNG GIAN QUÁN */
@@ -1900,7 +1935,7 @@
 
 @media screen and (max-width: 320px) {
     body {
-        padding: 5px;
+        padding: 100px 5px 0 5px;
     }
 
     /* navbar */
@@ -1941,8 +1976,9 @@
         background-size: cover;
         height: 200px;
     }
+
     .Slide {
-        height: 280px;
+        height: 220px;
         background-color: #fff1d0;
         color: #232323;
         line-height: 20px;
@@ -1951,6 +1987,7 @@
         border-top: solid 1px;
         border-bottom: solid 2px #3c5e2c;
     }
+
     .wow.fadeInUp {
         color: #555555;
         font-size: 17px;
@@ -1960,20 +1997,24 @@
         text-transform: uppercase;
         font-weight: bold;
     }
+
     .wow.fadeIn {
         color: #232323;
         font-size: 14px;
         text-align: center;
     }
+
     .more.wow.fadeIn {
         font-size: 14px;
         line-height: 21px;
         text-align: right;
         font-style: italic;
     }
+
     .more.wow.fadeIn a {
         color: #3c5e2c;
     }
+
     /* slide */
 
     /* KHÔNG GIAN QUÁN */
@@ -2125,6 +2166,15 @@
 
 * {
     font-family: 'Varela Round', sans-serif;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 5px;
+    left: 5px;
+    background-color: #fff;
 }
 
 #khung {
