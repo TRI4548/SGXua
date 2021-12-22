@@ -338,7 +338,6 @@
 
     /* Footer */
 }
-
 /* PC */
 
 /* laptop L */
@@ -651,8 +650,6 @@
 }
 
 /* laptop L */
-
-/* chỗ này tui muốn call để giải thích với mn */
 @media screen and (min-width: 992px) and (max-width: 1023px) {
     body {
         padding: 100px 10px 0 10px;
@@ -944,8 +941,6 @@
     /* footer */
 }
 
-/* chỗ này tui muốn call để giải thích với mn */
-
 /* laptop */
 @media screen and (min-width: 768px) and (max-width: 991px) {
     body {
@@ -1228,7 +1223,6 @@
 
     /* footer */
 }
-
 /* laptop */
 
 /* tablet */
@@ -1474,7 +1468,6 @@
 
     /* footer */
 }
-
 /* tablet */
 
 /* mobile */
