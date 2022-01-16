@@ -82,7 +82,8 @@ h3{
 
 .pro-header{
     text-transform: uppercase;
-   /* margin-bottom: 20px;*/
+   margin: 20px 0 10px 0;
+   padding: 0;
 }
 
 .review-rating{
@@ -409,6 +410,15 @@ input[type=button] {
     #hinhsp {
         text-align: center;
     }
+
+    #pro-desc {
+        margin-top: 50px;
+        padding-bottom: 10px;
+    }
+
+    #pro-rating {
+        margin-top: 30px;
+    }
     /*   body */
   
     /* Footer */
@@ -721,12 +731,12 @@ input[type=button] {
 
      /* chỗ này là chỗ chỉnh sửa body nha */
      #main{
-        padding: 0px;
+        padding: 0px 5px;
        }
    
        #pro-info{
-         /*  display: block;*/
-         padding: 50px 0;
+          display: block;
+          padding: 50px 0;
        }
    
        .cost-pro{
@@ -735,6 +745,16 @@ input[type=button] {
    
        ._2IW_UG{
        font-size: 20px;
+       }
+
+       #hinhsp {
+           width: 100%;
+       }
+
+       #hinhsp img {
+           width: 50%;
+           margin-left: 250px;
+           margin-bottom: 30px;
        }
    
        .row{
@@ -753,7 +773,12 @@ input[type=button] {
        }
    
        .buy-product{
-           margin-top: 90px;
+           margin-top: 30px;
+       }
+
+       .properties-product {
+           text-align: center;
+           margin-left: 270px;
        }
      /* chỗ này là chỗ chỉnh sửa body nha */
 
@@ -849,60 +874,76 @@ input[type=button] {
     /* navbar */
 
     /* chỗ này là chỗ chỉnh sửa body nha */
-    #main{
+    /* #main{
         padding: 0 20px;
-    }
+    } */
 
-    #pro-info{
+    /* #pro-info{
         padding: 30px 0;
-    }
+    } */
 
-    .new-price{
+    /* .new-price{
         flex-direction: column-reverse;
         margin-top: -34px;
-    }
-    .discount {
+    } */
+    /* .discount {
         width: 53%;
         margin-bottom: 10px;
         margin-left: 90px;
-    }
+    } */
 
-    .buy-product{
+    /* .buy-product{
         margin-top: 20px;
-    }
+    } */
 
-    .new-price{
+    /* .new-price{
         display: block;
         margin: 0 0 0 50px;
-    }
+    } */
 
-    .discount{
+    /* .discount{
         width: 100px;
-    }
+    } */
 
-    .spcosan{
+    /* .spcosan{
         display: block;
-    }
+    } */
 
-    .name-pro{
+    /* .name-pro{
         flex-direction: column;
-    }
+    } */
 
-    .items-center{
-        align-items:inherit;
-    }
+    /* .items-center{
+        align-items: inherit;
+    } */
 
-    .count-pro{
+    /* .count-pro{
         display: block;
-    }
+    } */
 
     .row{
         margin-left: 0;
     }
 
+    .name-pro {
+        display: inline;
+        align-items: center;
+    }
+
     #pro-info img {
         width: 100%;
         height: 400px;
+    }
+
+    #hinhsp {
+        width: 75%;
+    }
+    .header-pro{
+        text-align: center;
+        margin-top: 10px;
+    }
+    #prodesc {
+        margin-top: 0;
     }
     /* chỗ này là chỗ chỉnh sửa body nha */
   
@@ -997,9 +1038,12 @@ input[type=button] {
     }
 
     .product-img{
-        margin: 0 100px 0 10px;
+        /* margin: 0 100px 0 10px; */
         padding-bottom: 20px;
+        text-align: center;
     }
+
+    
 
     .properties-product{
         width: 100%;
@@ -1033,13 +1077,12 @@ input[type=button] {
     #pro-desc{
         padding: 50px 10px 0 10px;
     }
-    .product-img img{
-        width: 200%;
-        height: auto;
+    #hinhsp {
+        width: 100%;
     }
 
     #pro-rating{
-        padding: 50px 0;
+        padding: 20px 0;
     }
 
     .name-pro{
@@ -1061,6 +1104,10 @@ input[type=button] {
         width: fit-content;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .items-center{
+        align-items: center;
     }
     
     .cost-pro{
@@ -1194,10 +1241,10 @@ input[type=button] {
     #pro-desc{
         padding: 50px 10px 0 10px;
     }
-    .product-img img{
+    /* .product-img img{
         width: 100%;
         height: auto;
-    }
+    } */
 
     #pro-rating{
         padding: 50px 0;
@@ -1224,12 +1271,15 @@ input[type=button] {
         margin-right: auto;
     }
 
-    .btn1 {
+    /* .btn1 {
         margin-top: 20px;
-    }
+    } */
 
     .price-new {
         font-size: 28px;
+    }
+    #hinhsp img {
+        width: 100%;
     }
     /* chỗ này là chỗ chỉnh sửa body nha */
 
@@ -1380,6 +1430,10 @@ input[type=button] {
     .btn1 {
         margin-top: 20px;
     }
+
+    #hinhsp img {
+        width: 100%;
+    }
   
     /* footer */
     .listSocial {
@@ -1409,9 +1463,9 @@ input[type=button] {
     }
   
     /* footer */
-  }
+}
   
-  @media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
     body {
         padding: 100px 5px 0 5px;
     }
@@ -1525,6 +1579,10 @@ input[type=button] {
     .btn1 {
         margin-top: 20px;
     }
+
+    #hinhsp img{
+        width: 100%;
+    }
   
     /* footer */
     .listSocial {
@@ -1554,4 +1612,4 @@ input[type=button] {
     }
   
     /* footer */
-  }
+}
