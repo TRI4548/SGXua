@@ -69,7 +69,7 @@
     </header>
 
     <div class="container" id="middle">
-        <section>
+        <section class="slider">
             <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -195,9 +195,10 @@
                 </button>
             </div>
         </section>
-        <section class="newProduct" id="product">
-            <h1 class="titleNewProduct" style="padding-top: 30px; font-weight: bold;">CÁC SẢN PHẨM MỚI THÁNG NÀY</h1>
-            <div class="container-fluid">
+
+        <section class="newProduct">
+            <h1 class="titleNewProduct mt-0 mb-0" style="padding-top: 30px; font-weight: bold;">CÁC SẢN PHẨM MỚI THÁNG NÀY</h1>
+            <div class="container" id="product">
                 <div class="row row-item">
                     <div class="item col-12 col-lg-3 col-md-6">
                         <div class="card card_item">
@@ -251,8 +252,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row row-item" style="margin-bottom: 20px;">
                     <div class="item col-12 col-lg-3 col-md-6">
                         <div class="card card_item">
                             <img class="card-img-top"
@@ -306,23 +305,26 @@
                         </div>
                     </div>
                 </div>
+                <!-- <div class="row row-item">
+                    
+                </div> -->
             </div>
         </section>
+
         <section class="envir">
-            <div class="envir-container">
+            <div class="container p-0">
                 <div class="envir-text">
                     <h1 style="font-weight: bold;">KHÔNG GIAN QUÁN ĐƯA BẠN VỀ SÀI GÒN 1975...</h1>
                 </div>
-                <div class="bg1">
-                    <img src="https://cdn.discordapp.com/attachments/921250057293029397/921251225415061554/cf71-min-1.jpg"
-                        alt="...">
-                </div>
-                <div class="bg2">
-                    <img src="https://cdn.discordapp.com/attachments/921250057293029397/921251226027446332/quan-ca-phe-vintage-o-sai-gon-ava.jpg"
+                <div class="pic">
+                    <img class="bg1" src="https://cdn.discordapp.com/attachments/921250057293029397/921251225415061554/cf71-min-1.jpg"
+                    alt="...">
+                    <img class="bg2" src="https://cdn.discordapp.com/attachments/921250057293029397/921251226027446332/quan-ca-phe-vintage-o-sai-gon-ava.jpg"
                         alt="...">
                 </div>
             </div>
         </section>
+
         <section class="infor">
             <div class="container-fluid" id="content">
                 <div class="row" id="khung">
@@ -343,8 +345,8 @@
                                         phê trong
                                         thức uống mỗi buổi sáng hàng ngày của bạn nhé.
                                     </p>
-                                    <div class="more wow fadeIn" id="tintuc-more">
-                                        <a href="#" class="cl1" target="_blank" rel="noopener">Xem thêm</a>
+                                    <div class="tintuc-more">
+                                        <a href="#" target="_blank" rel="noopener">Xem thêm</a>
                                     </div>
                                 </div>
                             </div>
@@ -389,8 +391,8 @@
                                         đắng
                                         này, giọt của si mê. Như giọt đời, giọt mưa, giọt nắng...
                                     </p>
-                                    <div class="more wow fadeIn">
-                                        <a href="./html/tin4.html" class="cl1" target="_blank" rel="noopener">Xem
+                                    <div class="tintuc-more">
+                                        <a href="./html/tin4.html" target="_blank" rel="noopener">Xem
                                             thêm</a>
                                     </div>
                                 </div>
@@ -426,7 +428,7 @@
             </div>
         </section>
     </div>
-
+    
     <footer>
         <div class="listSocial">
             <div class="container-fluid">
